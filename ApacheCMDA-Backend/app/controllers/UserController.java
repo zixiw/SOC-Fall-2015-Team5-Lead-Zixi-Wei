@@ -220,5 +220,8 @@ public class UserController extends Controller {
 		}
 		
 	}
+	public String fucku(){
+		return "fuck";
+	}
 
 }
