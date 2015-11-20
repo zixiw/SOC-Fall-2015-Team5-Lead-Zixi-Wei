@@ -1,5 +1,8 @@
 package models;
 
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -161,4 +164,70 @@ public class AWorkflow {
     public String toString(){
         return getDescription()+getName()+getPreviewImage()+getInputs()+getTasks();
     }
+
+    public JsonObject toJson() {
+        JsonObject jsonObject = new JsonObject();
+
+        jsonObject.addProperty("name", getName());
+        jsonObject.addProperty("description", getDescription());
+        jsonObject.addProperty("previewImage", getPreviewImage());
+
+        // get task
+        JsonArray jsonArrayATask = new JsonArray();
+        for (ATask task : getTasks()) {
+            jsonArrayATask.add(task.toJson());
+        }
+        jsonObject.add("tasks", jsonArrayATask);
+        // get input
+        JsonArray jsonArrayAInput = new JsonArray();
+        for (AInput input : getInputs()) {
+            jsonArrayAInput.add(input.toJson());
+        }
+        jsonObject.add("inputs", jsonArrayAInput);
+        // get output
+        JsonArray jsonArrayAOutput = new JsonArray();
+        for (AOutput output : getOutputs()) {
+            jsonArrayAOutput.add(output.toJson());
+        }
+        jsonObject.add("output", jsonArrayAOutput);
+        // get contributors
+        JsonArray jsonArrayAUser = new JsonArray();
+        for (AUser user : getContributors()) {
+            jsonArrayAUser.add(user.toJson());
+        }
+        jsonObject.add("contributors", jsonArrayAUser);
+        // get tags
+        JsonArray jsonArrayATag = new JsonArray();
+        for (ATag tag : getTags()) {
+            jsonArrayATag.add(tag.toJson());
+        }
+        jsonObject.add("tags", jsonArrayATag);
+        // get links
+        JsonArray jsonArrayALink = new JsonArray();
+        for (ALink link : getLinks()) {
+            jsonArrayALink.add(link.toJson());
+        }
+        jsonObject.add("links", jsonArrayALink);
+        // get instruments
+        JsonArray jsonArrayAInstrument = new JsonArray();
+        for (AInstrument instrument : getInstruments()) {
+            jsonArrayAInstrument.add(instrument.toJson());
+        }
+        jsonObject.add("instruments", jsonArrayAInstrument);
+        // get associatedDatasets
+        JsonArray jsonArrayADataset = new JsonArray();
+        for (ADataset dataset : getAssociatedDatasets()) {
+            jsonArrayADataset.add(dataset.toJson());
+        }
+        jsonObject.add("associatedDatasets", jsonArrayADataset);
+        // get associateWorkflow
+        JsonArray jsonArrayAAssociateWorkflow = new JsonArray();
+        for (AAssociateWorkflow associateWorkflow : getAssociateWorkflow()) {
+            jsonArrayAAssociateWorkflow.add(associateWorkflow.toJson());
+        }
+        jsonObject.add("associateWorkflow", jsonArrayAAssociateWorkflow);
+
+        return jsonObject;
+    }
+
 }

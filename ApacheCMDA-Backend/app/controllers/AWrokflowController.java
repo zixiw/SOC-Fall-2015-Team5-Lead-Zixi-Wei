@@ -26,7 +26,7 @@ public class AWrokflowController extends Controller {
     private final AUserRepository aUserRepository;
 
     @Inject
-    public AWrokflowController(final AWorkflowRepository aWorkflowRepository, final AUserRepository aUserRepository) {
+    public AWrokflowController(final AWorkflowRepository aWorkflowRepository, AUserRepository aUserRepository) {
         this.aWorkflowRepository = aWorkflowRepository;
         this.aUserRepository = aUserRepository;
     }
@@ -93,24 +93,35 @@ public class AWrokflowController extends Controller {
             for (int i = 0; i < contributors.size(); i++) {
                 JsonNode user = contributors.get(i);
                 String userName= user.path("userName").asText();
-                String firstName= user.path("firstName").asText();
-                String lastName= user.path("lastName").asText();
-                String middleInitial= user.path("middleInitial").asText();
-                String affiliation= user.path("affiliation").asText();
-                String title= user.path("title").asText();
-                String email= user.path("email").asText();
-                String mailingAddress= user.path("mailingAddress").asText();
-                String phoneNumber= user.path("phoneNumber").asText();
-                String faxNumber= user.path("faxNumber").asText();
-                String researchFields= user.path("researchFields").asText();
-                String highestDegree= user.path("highestDegree").asText();
-                String password = null;
+//                String firstName= user.path("firstName").asText();
+//                String lastName= user.path("lastName").asText();
+//                String middleInitial= user.path("middleInitial").asText();
+//                String affiliation= user.path("affiliation").asText();
+//                String title= user.path("title").asText();
+//                String email= user.path("email").asText();
+//                String mailingAddress= user.path("mailingAddress").asText();
+//                String phoneNumber= user.path("phoneNumber").asText();
+//                String faxNumber= user.path("faxNumber").asText();
+//                String researchFields= user.path("researchFields").asText();
+//                String highestDegree= user.path("highestDegree").asText();
+//                String password = "";
+                AUser tempuser = null;
+                AUser aUser = null;
                 if (aUserRepository.findFirstByUserName(userName) != null) {
-                    AUser tempuser = aUserRepository.findFirstByUserName(userName);
-                    password = tempuser.getPassword();
+                    tempuser = aUserRepository.findFirstByUserName(userName);
                     aUserRepository.delete(tempuser);
                 }
-                userSet.add(new AUser(userName, password,firstName, lastName, middleInitial, affiliation, title, email, mailingAddress, phoneNumber, faxNumber, researchFields, highestDegree, workflow ));
+                if (tempuser == null) {
+                    //userSet.add(new AUser(userName, password,firstName, lastName, middleInitial, affiliation, title, email, mailingAddress, phoneNumber, faxNumber, researchFields, highestDegree, workflow ));
+                    System.out.println("cannot find contributor's userName: " + userName);
+                    return badRequest("cannot find contributor's userName: " + userName);
+                } else {
+                    aUser = new AUser(userName, tempuser.getPassword(),tempuser.getFirstName(), tempuser.getLastName(), tempuser.getMiddleInitial(), tempuser.getAffiliation(), tempuser.getTitle(), tempuser.getEmail(), tempuser.getMailingAddress(), tempuser.getPhoneNumber(), tempuser.getFaxNumber(), tempuser.getResearchFields(), tempuser.getHighestDegree(), workflow );
+                    userSet.add(aUser);
+                    aUserRepository.delete(tempuser);
+                }
+                aUserRepository.delete(tempuser);
+                //aUserRepository.save(new AUser(userName, password,firstName, lastName, middleInitial, affiliation, title, email, mailingAddress, phoneNumber, faxNumber, researchFields, highestDegree, workflow ));
             }
             workflow.setContributors(userSet);
             // set tags
@@ -210,72 +221,68 @@ public class AWrokflowController extends Controller {
                 System.out.println("Name not existed: " + name);
                 return badRequest("Name not existed");
             }
-            String tasks = "";
 
-            JsonObject jsonObject = new JsonObject();
-
-            jsonObject.addProperty("name", aWorkflow.getName());
-            jsonObject.addProperty("description", aWorkflow.getDescription());
-            jsonObject.addProperty("previewImage", aWorkflow.getPreviewImage());
-
-            // get task
-            JsonArray jsonArrayATask = new JsonArray();
-            for (ATask task : aWorkflow.getTasks()) {
-                jsonArrayATask.add(task.toJson());
-                tasks += task.getName() + " "+task.getContent()+"......";
-            }
-            jsonObject.add("tasks", jsonArrayATask);
-            // get input
-            JsonArray jsonArrayAInput = new JsonArray();
-            for (AInput input : aWorkflow.getInputs()) {
-                jsonArrayAInput.add(input.toJson());
-            }
-            jsonObject.add("inputs", jsonArrayAInput);
-            // get output
-            JsonArray jsonArrayAOutput = new JsonArray();
-            for (AOutput output : aWorkflow.getOutputs()) {
-                jsonArrayAOutput.add(output.toJson());
-            }
-            jsonObject.add("output", jsonArrayAOutput);
-            // get contributors
-            JsonArray jsonArrayAUser = new JsonArray();
-            for (AUser user : aWorkflow.getContributors()) {
-                jsonArrayAUser.add(user.toJson());
-            }
-            jsonObject.add("contributors", jsonArrayAUser);
-            // get tags
-            JsonArray jsonArrayATag = new JsonArray();
-            for (ATag tag : aWorkflow.getTags()) {
-                jsonArrayATag.add(tag.toJson());
-            }
-            jsonObject.add("tags", jsonArrayATag);
-            // get links
-            JsonArray jsonArrayALink = new JsonArray();
-            for (ALink link : aWorkflow.getLinks()) {
-                jsonArrayALink.add(link.toJson());
-            }
-            jsonObject.add("links", jsonArrayALink);
-            // get instruments
-            JsonArray jsonArrayAInstrument = new JsonArray();
-            for (AInstrument instrument : aWorkflow.getInstruments()) {
-                jsonArrayAInstrument.add(instrument.toJson());
-            }
-            jsonObject.add("instruments", jsonArrayAInstrument);
-            // get associatedDatasets
-            JsonArray jsonArrayADataset = new JsonArray();
-            for (ADataset dataset : aWorkflow.getAssociatedDatasets()) {
-                jsonArrayADataset.add(dataset.toJson());
-            }
-            jsonObject.add("associatedDatasets", jsonArrayADataset);
-            // get associateWorkflow
-            JsonArray jsonArrayAAssociateWorkflow = new JsonArray();
-            for (AAssociateWorkflow associateWorkflow : aWorkflow.getAssociateWorkflow()) {
-                jsonArrayAAssociateWorkflow.add(associateWorkflow.toJson());
-            }
-            jsonObject.add("associateWorkflow", jsonArrayAAssociateWorkflow);
-
-
-            return created(jsonObject.toString());
+//            JsonObject jsonObject = new JsonObject();
+//
+//            jsonObject.addProperty("name", aWorkflow.getName());
+//            jsonObject.addProperty("description", aWorkflow.getDescription());
+//            jsonObject.addProperty("previewImage", aWorkflow.getPreviewImage());
+//
+//            // get task
+//            JsonArray jsonArrayATask = new JsonArray();
+//            for (ATask task : aWorkflow.getTasks()) {
+//                jsonArrayATask.add(task.toJson());
+//            }
+//            jsonObject.add("tasks", jsonArrayATask);
+//            // get input
+//            JsonArray jsonArrayAInput = new JsonArray();
+//            for (AInput input : aWorkflow.getInputs()) {
+//                jsonArrayAInput.add(input.toJson());
+//            }
+//            jsonObject.add("inputs", jsonArrayAInput);
+//            // get output
+//            JsonArray jsonArrayAOutput = new JsonArray();
+//            for (AOutput output : aWorkflow.getOutputs()) {
+//                jsonArrayAOutput.add(output.toJson());
+//            }
+//            jsonObject.add("output", jsonArrayAOutput);
+//            // get contributors
+//            JsonArray jsonArrayAUser = new JsonArray();
+//            for (AUser user : aWorkflow.getContributors()) {
+//                jsonArrayAUser.add(user.toJson());
+//            }
+//            jsonObject.add("contributors", jsonArrayAUser);
+//            // get tags
+//            JsonArray jsonArrayATag = new JsonArray();
+//            for (ATag tag : aWorkflow.getTags()) {
+//                jsonArrayATag.add(tag.toJson());
+//            }
+//            jsonObject.add("tags", jsonArrayATag);
+//            // get links
+//            JsonArray jsonArrayALink = new JsonArray();
+//            for (ALink link : aWorkflow.getLinks()) {
+//                jsonArrayALink.add(link.toJson());
+//            }
+//            jsonObject.add("links", jsonArrayALink);
+//            // get instruments
+//            JsonArray jsonArrayAInstrument = new JsonArray();
+//            for (AInstrument instrument : aWorkflow.getInstruments()) {
+//                jsonArrayAInstrument.add(instrument.toJson());
+//            }
+//            jsonObject.add("instruments", jsonArrayAInstrument);
+//            // get associatedDatasets
+//            JsonArray jsonArrayADataset = new JsonArray();
+//            for (ADataset dataset : aWorkflow.getAssociatedDatasets()) {
+//                jsonArrayADataset.add(dataset.toJson());
+//            }
+//            jsonObject.add("associatedDatasets", jsonArrayADataset);
+//            // get associateWorkflow
+//            JsonArray jsonArrayAAssociateWorkflow = new JsonArray();
+//            for (AAssociateWorkflow associateWorkflow : aWorkflow.getAssociateWorkflow()) {
+//                jsonArrayAAssociateWorkflow.add(associateWorkflow.toJson());
+//            }
+//            jsonObject.add("associateWorkflow", jsonArrayAAssociateWorkflow);
+            return created(aWorkflow.toJson().toString());
         } catch (PersistenceException pe) {
             pe.printStackTrace();
             System.out.println("getAtest: " + name);

@@ -4,7 +4,7 @@
 		module="apachecmda_backend$sources_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20151119190658"
+		publication="20151120144031"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

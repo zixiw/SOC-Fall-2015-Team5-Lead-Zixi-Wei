@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55eaa8b5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f8a09ba
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.4
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.11.4
 [debug] 	found org.scala-lang#scala-library;2.11.4 in sbt-chain
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.4 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.0.2 [compile->default(compile)]
 [info] Resolving com.typesafe.play#twirl-api_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d9be261
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9fbb856
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.11;1.0.2
 [debug] 	local: revision in cache: com.typesafe.play#twirl-api_2.11;1.0.2
 [debug] 	found com.typesafe.play#twirl-api_2.11;1.0.2 in sbt-chain
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64c45660
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ac5a584
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.1
 [debug] 	local: revision in cache: org.apache.commons#commons-lang3;3.1
 [debug] 	found org.apache.commons#commons-lang3;3.1 in sbt-chain
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a811f50
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b363c41
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
@@ -43,7 +43,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play_2.11;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.11;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a92bc73
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@245731fd
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.11;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play_2.11;2.3.7
 [debug] 	found com.typesafe.play#play_2.11;2.3.7 in sbt-chain
@@ -52,7 +52,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play_2.11;2.3.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#build-link;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#build-link;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@940fe76
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27de3ef0
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#build-link;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#build-link;2.3.7
 [debug] 	found com.typesafe.play#build-link;2.3.7 in sbt-chain
@@ -61,7 +61,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#build-link;2.3.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66746fc6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@531b1c40
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-exceptions;2.3.7
 [debug] 	found com.typesafe.play#play-exceptions;2.3.7 in sbt-chain
@@ -70,7 +70,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.3.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.javassist#javassist;3.18.2-GA [compile->default(compile)]
 [info] Resolving org.javassist#javassist;3.18.2-GA ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@384c24b1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3007dddb
 [debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.18.2-GA
 [debug] 	local: revision in cache: org.javassist#javassist;3.18.2-GA
 [debug] 	found org.javassist#javassist;3.18.2-GA in sbt-chain
@@ -79,7 +79,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.javassist#javassist;3.18.2-GA [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-iteratees_2.11;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1700e1b5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52b62ae4
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-iteratees_2.11;2.3.7
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.3.7 in sbt-chain
@@ -88,7 +88,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-iteratees_2.11;2.3.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3185e13d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3163e065
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	local: revision in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
@@ -97,7 +97,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37d30ccb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75a80f37
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	local: revision in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-json_2.11;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78fff0b2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59f712b4
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-json_2.11;2.3.7
 [debug] 	found com.typesafe.play#play-json_2.11;2.3.7 in sbt-chain
@@ -115,7 +115,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-json_2.11;2.3.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-functional_2.11;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@513bff6a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32f91327
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-functional_2.11;2.3.7
 [debug] 	found com.typesafe.play#play-functional_2.11;2.3.7 in sbt-chain
@@ -124,7 +124,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-functional_2.11;2.3.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-datacommons_2.11;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b96f3b0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a79186
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-datacommons_2.11;2.3.7
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.3.7 in sbt-chain
@@ -133,7 +133,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-datacommons_2.11;2.3.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->joda-time#joda-time;2.3 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15d77e51
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8c0414e
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.3
 [debug] 	local: revision in cache: joda-time#joda-time;2.3
 [debug] 	found joda-time#joda-time;2.3 in sbt-chain
@@ -142,7 +142,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->joda-time#joda-time;2.3 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.joda#joda-convert;1.6 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1292c3b9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2063b764
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.6
 [debug] 	local: revision in cache: org.joda#joda-convert;1.6
 [debug] 	found org.joda#joda-convert;1.6 in sbt-chain
@@ -151,7 +151,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.joda#joda-convert;1.6 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e34ead9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c93ce1
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.3.2 in sbt-chain
@@ -160,7 +160,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48c47aa6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a06ae3b
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.2
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-core;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.3.2 in sbt-chain
@@ -169,7 +169,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@258a295b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@457cb47a
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.3.2 in sbt-chain
@@ -178,7 +178,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.1 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41812f06
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@495ef4cd
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.1
 [debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.11.1
 [debug] 	found org.scala-lang#scala-reflect;2.11.1 in sbt-chain
@@ -188,7 +188,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53cc3068
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48c6a51f
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain
@@ -197,7 +197,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->io.netty#netty;3.9.3.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.9.3.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23ef5fa1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d788e1e
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.9.3.Final
 [debug] 	local: revision in cache: io.netty#netty;3.9.3.Final
 [debug] 	found io.netty#netty;3.9.3.Final in sbt-chain
@@ -206,7 +206,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->io.netty#netty;3.9.3.Final [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-http-pipelining;1.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e6ed12c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5841cc0
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-http-pipelining;1.1.2
 [debug] 	local: revision in cache: com.typesafe.netty#netty-http-pipelining;1.1.2
 [debug] 	found com.typesafe.netty#netty-http-pipelining;1.1.2 in sbt-chain
@@ -215,7 +215,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.6 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@481480c6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a615ffc
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.6
 [debug] 	local: revision in cache: org.slf4j#jul-to-slf4j;1.7.6
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.6 in sbt-chain
@@ -224,7 +224,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.6 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.1 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a877653
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46f752e5
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.1
 [debug] 	local: revision in cache: ch.qos.logback#logback-core;1.1.1
 [debug] 	found ch.qos.logback#logback-core;1.1.1 in sbt-chain
@@ -233,7 +233,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.1 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5501708
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d5398d6
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.1
 [debug] 	local: revision in cache: ch.qos.logback#logback-classic;1.1.1
 [debug] 	found ch.qos.logback#logback-classic;1.1.1 in sbt-chain
@@ -242,7 +242,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3933495c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8c3ba0b
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.4
 [debug] 	local: revision in cache: com.typesafe.akka#akka-actor_2.11;2.3.4
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.4 in sbt-chain
@@ -251,7 +251,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.11;2.3.4 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.11;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56b3e072
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75fbe8cf
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.11;2.3.4
 [debug] 	local: revision in cache: com.typesafe.akka#akka-slf4j_2.11;2.3.4
 [debug] 	found com.typesafe.akka#akka-slf4j_2.11;2.3.4 in sbt-chain
@@ -260,7 +260,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.11;2.3.4 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@720ff140
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a7196f9
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.9
 [debug] 	local: revision in cache: commons-codec#commons-codec;1.9
 [debug] 	found commons-codec#commons-codec;1.9 in sbt-chain
@@ -269,7 +269,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47dc17f6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69f20a02
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	local: revision in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
@@ -278,7 +278,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3767a15f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1db2d20b
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	local: revision in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
@@ -287,7 +287,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->javax.transaction#jta;1.1 [compile->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6066b87
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c2225a9
 [debug] sbt-chain: module revision found in cache: javax.transaction#jta;1.1
 [debug] 	local: revision in cache: javax.transaction#jta;1.1
 [debug] 	found javax.transaction#jta;1.1 in sbt-chain
@@ -296,7 +296,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->javax.transaction#jta;1.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-java_2.11;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@501c796d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@532fb87a
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-java_2.11;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-java_2.11;2.3.7
 [debug] 	found com.typesafe.play#play-java_2.11;2.3.7 in sbt-chain
@@ -305,7 +305,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.3.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.yaml#snakeyaml;1.13 [compile->default(compile)]
 [info] Resolving org.yaml#snakeyaml;1.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5915cf50
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@751261d7
 [debug] sbt-chain: module revision found in cache: org.yaml#snakeyaml;1.13
 [debug] 	local: revision in cache: org.yaml#snakeyaml;1.13
 [debug] 	found org.yaml#snakeyaml;1.13 in sbt-chain
@@ -314,7 +314,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.yaml#snakeyaml;1.13 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-validator;5.0.3.Final [compile->default(compile)]
 [info] Resolving org.hibernate#hibernate-validator;5.0.3.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6617d953
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5be2afda
 [debug] sbt-chain: module revision found in cache: org.hibernate#hibernate-validator;5.0.3.Final
 [debug] 	local: revision in cache: org.hibernate#hibernate-validator;5.0.3.Final
 [debug] 	found org.hibernate#hibernate-validator;5.0.3.Final in sbt-chain
@@ -323,7 +323,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-validator;5.0.3.Final [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->javax.validation#validation-api;1.1.0.Final [compile->default(compile)]
 [info] Resolving javax.validation#validation-api;1.1.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12a12d1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c6bd44a
 [debug] sbt-chain: module revision found in cache: javax.validation#validation-api;1.1.0.Final
 [debug] 	local: revision in cache: javax.validation#validation-api;1.1.0.Final
 [debug] 	found javax.validation#validation-api;1.1.0.Final in sbt-chain
@@ -332,7 +332,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->javax.validation#validation-api;1.1.0.Final [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml#classmate;1.0.0 [compile->default(compile)]
 [info] Resolving com.fasterxml#classmate;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65758167
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5df72c2f
 [debug] sbt-chain: module revision found in cache: com.fasterxml#classmate;1.0.0
 [debug] 	local: revision in cache: com.fasterxml#classmate;1.0.0
 [debug] 	found com.fasterxml#classmate;1.0.0 in sbt-chain
@@ -341,7 +341,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml#classmate;1.0.0 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.jboss.logging#jboss-logging;3.2.0.Final [compile->default(compile)]
 [info] Resolving org.jboss.logging#jboss-logging;3.2.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e4206ca
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@319c24c0
 [debug] sbt-chain: module revision found in cache: org.jboss.logging#jboss-logging;3.2.0.Final
 [debug] 	local: revision in cache: org.jboss.logging#jboss-logging;3.2.0.Final
 [debug] 	found org.jboss.logging#jboss-logging;3.2.0.Final in sbt-chain
@@ -350,7 +350,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.jboss.logging#jboss-logging;3.2.0.Final [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.reflections#reflections;0.9.8 [compile->default(compile)]
 [info] Resolving org.reflections#reflections;0.9.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b228b58
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@142afed6
 [debug] sbt-chain: module revision found in cache: org.reflections#reflections;0.9.8
 [debug] 	local: revision in cache: org.reflections#reflections;0.9.8
 [debug] 	found org.reflections#reflections;0.9.8 in sbt-chain
@@ -359,7 +359,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.reflections#reflections;0.9.8 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->dom4j#dom4j;1.6.1 [compile->default(compile)]
 [info] Resolving dom4j#dom4j;1.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a724e4e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bbdb37
 [debug] sbt-chain: module revision found in cache: dom4j#dom4j;1.6.1
 [debug] 	local: revision in cache: dom4j#dom4j;1.6.1
 [debug] 	found dom4j#dom4j;1.6.1 in sbt-chain
@@ -368,7 +368,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->dom4j#dom4j;1.6.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.guava#guava;16.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;16.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5827aff5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a4c6122
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;16.0.1
 [debug] 	local: revision in cache: com.google.guava#guava;16.0.1
 [debug] 	found com.google.guava#guava;16.0.1 in sbt-chain
@@ -377,7 +377,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.guava#guava;16.0.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;2.0.3 [compile->default(compile)]
 [info] Resolving com.google.code.findbugs#jsr305;2.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36396be9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75c29850
 [debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	local: revision in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	found com.google.code.findbugs#jsr305;2.0.3 in sbt-chain
@@ -386,7 +386,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;2.0.3 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.tomcat#tomcat-servlet-api;8.0.5 [compile->default(compile)]
 [info] Resolving org.apache.tomcat#tomcat-servlet-api;8.0.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4deda34d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a84a5ed
 [debug] sbt-chain: module revision found in cache: org.apache.tomcat#tomcat-servlet-api;8.0.5
 [debug] 	local: revision in cache: org.apache.tomcat#tomcat-servlet-api;8.0.5
 [debug] 	found org.apache.tomcat#tomcat-servlet-api;8.0.5 in sbt-chain
@@ -395,7 +395,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.tomcat#tomcat-servlet-api;8.0.5 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-cache_2.11;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e2892e8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b31673c
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-cache_2.11;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-cache_2.11;2.3.7
 [debug] 	found com.typesafe.play#play-cache_2.11;2.3.7 in sbt-chain
@@ -404,7 +404,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.3.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.sf.ehcache#ehcache-core;2.6.8 [compile->default(compile)]
 [info] Resolving net.sf.ehcache#ehcache-core;2.6.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57ca5332
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44cc508f
 [debug] sbt-chain: module revision found in cache: net.sf.ehcache#ehcache-core;2.6.8
 [debug] 	local: revision in cache: net.sf.ehcache#ehcache-core;2.6.8
 [debug] 	found net.sf.ehcache#ehcache-core;2.6.8 in sbt-chain
@@ -413,7 +413,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.sf.ehcache#ehcache-core;2.6.8 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-java-ws_2.11;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2be717d7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3820beb6
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-java-ws_2.11;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-java-ws_2.11;2.3.7
 [debug] 	found com.typesafe.play#play-java-ws_2.11;2.3.7 in sbt-chain
@@ -422,7 +422,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.3.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-ws_2.11;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c10f095
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@605cf228
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-ws_2.11;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-ws_2.11;2.3.7
 [debug] 	found com.typesafe.play#play-ws_2.11;2.3.7 in sbt-chain
@@ -431,7 +431,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.3.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.8.14 [compile->default(compile)]
 [info] Resolving com.ning#async-http-client;1.8.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d47988e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38d357e3
 [debug] sbt-chain: module revision found in cache: com.ning#async-http-client;1.8.14
 [debug] 	local: revision in cache: com.ning#async-http-client;1.8.14
 [debug] 	found com.ning#async-http-client;1.8.14 in sbt-chain
@@ -440,7 +440,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.8.14 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-core;1.2.1.2 [compile->default(compile)]
 [info] Resolving oauth.signpost#signpost-core;1.2.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42fb1c78
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5faf413f
 [debug] sbt-chain: module revision found in cache: oauth.signpost#signpost-core;1.2.1.2
 [debug] 	local: revision in cache: oauth.signpost#signpost-core;1.2.1.2
 [debug] 	found oauth.signpost#signpost-core;1.2.1.2 in sbt-chain
@@ -449,7 +449,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-core;1.2.1.2 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->default(compile)]
 [info] Resolving oauth.signpost#signpost-commonshttp4;1.2.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55f1050a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3aafa306
 [debug] sbt-chain: module revision found in cache: oauth.signpost#signpost-commonshttp4;1.2.1.2
 [debug] 	local: revision in cache: oauth.signpost#signpost-commonshttp4;1.2.1.2
 [debug] 	found oauth.signpost#signpost-commonshttp4;1.2.1.2 in sbt-chain
@@ -458,7 +458,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.0.1 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35fd7c63
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47248661
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.0.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpcore;4.0.1
 [debug] 	found org.apache.httpcomponents#httpcore;4.0.1 in sbt-chain
@@ -467,7 +467,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.0.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.0.1 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60a3a3fc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56ecedfb
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.0.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpclient;4.0.1
 [debug] 	found org.apache.httpcomponents#httpclient;4.0.1 in sbt-chain
@@ -476,7 +476,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.0.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-context;4.1.4.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-context;4.1.4.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ef21ab
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65d007ae
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-context;4.1.4.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-context;4.1.4.RELEASE
 [debug] 	found org.springframework#spring-context;4.1.4.RELEASE in sbt-chain
@@ -485,7 +485,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-context;4.1.4.RELEASE [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-aop;4.1.4.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-aop;4.1.4.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fe979a7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d7e70fd
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-aop;4.1.4.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-aop;4.1.4.RELEASE
 [debug] 	found org.springframework#spring-aop;4.1.4.RELEASE in sbt-chain
@@ -494,7 +494,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-aop;4.1.4.RELEASE [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->aopalliance#aopalliance;1.0 [compile->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2169b91c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ef5fcc5
 [debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
 [debug] 	local: revision in cache: aopalliance#aopalliance;1.0
 [debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
@@ -503,7 +503,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->aopalliance#aopalliance;1.0 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-beans;4.1.4.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-beans;4.1.4.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63dd9d51
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61b40457
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-beans;4.1.4.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-beans;4.1.4.RELEASE
 [debug] 	found org.springframework#spring-beans;4.1.4.RELEASE in sbt-chain
@@ -512,7 +512,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-beans;4.1.4.RELEASE [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-core;4.1.4.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@356f1db3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6506ee6c
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-core;4.1.4.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-core;4.1.4.RELEASE
 [debug] 	found org.springframework#spring-core;4.1.4.RELEASE in sbt-chain
@@ -521,7 +521,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.1.4.RELEASE [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6810e655
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e15f617
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.2
 [debug] 	local: revision in cache: commons-logging#commons-logging;1.2
 [debug] 	found commons-logging#commons-logging;1.2 in sbt-chain
@@ -530,7 +530,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-expression;4.1.4.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-expression;4.1.4.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70740e5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d635444
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-expression;4.1.4.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-expression;4.1.4.RELEASE
 [debug] 	found org.springframework#spring-expression;4.1.4.RELEASE in sbt-chain
@@ -539,7 +539,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-expression;4.1.4.RELEASE [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->javax.inject#javax.inject;1 [compile->default(compile)]
 [info] Resolving javax.inject#javax.inject;1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@299d5af6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34c16d32
 [debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
 [debug] 	local: revision in cache: javax.inject#javax.inject;1
 [debug] 	found javax.inject#javax.inject;1 in sbt-chain
@@ -548,7 +548,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->javax.inject#javax.inject;1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework.data#spring-data-jpa;1.7.1.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework.data#spring-data-jpa;1.7.1.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44443229
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b3405d1
 [debug] sbt-chain: module revision found in cache: org.springframework.data#spring-data-jpa;1.7.1.RELEASE
 [debug] 	local: revision in cache: org.springframework.data#spring-data-jpa;1.7.1.RELEASE
 [debug] 	found org.springframework.data#spring-data-jpa;1.7.1.RELEASE in sbt-chain
@@ -557,7 +557,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework.data#spring-data-jpa;1.7.1.RELEASE [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework.data#spring-data-commons;1.9.1.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework.data#spring-data-commons;1.9.1.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52cdf0f1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49cd20e8
 [debug] sbt-chain: module revision found in cache: org.springframework.data#spring-data-commons;1.9.1.RELEASE
 [debug] 	local: revision in cache: org.springframework.data#spring-data-commons;1.9.1.RELEASE
 [debug] 	found org.springframework.data#spring-data-commons;1.9.1.RELEASE in sbt-chain
@@ -566,7 +566,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework.data#spring-data-commons;1.9.1.RELEASE [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.7 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53575f7b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@774331c9
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.7
 [debug] 	local: revision in cache: org.slf4j#slf4j-api;1.7.7
 [debug] 	found org.slf4j#slf4j-api;1.7.7 in sbt-chain
@@ -575,7 +575,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.7 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58d9b110
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e9b9dc1
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.7
 [debug] 	local: revision in cache: org.slf4j#jcl-over-slf4j;1.7.7
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.7 in sbt-chain
@@ -584,7 +584,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.7 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-orm;4.0.7.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-orm;4.0.7.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d22b27d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@236029a7
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-orm;4.0.7.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-orm;4.0.7.RELEASE
 [debug] 	found org.springframework#spring-orm;4.0.7.RELEASE in sbt-chain
@@ -593,7 +593,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-orm;4.0.7.RELEASE [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-jdbc;4.0.7.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-jdbc;4.0.7.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a737876
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d5ae7a3
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-jdbc;4.0.7.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-jdbc;4.0.7.RELEASE
 [debug] 	found org.springframework#spring-jdbc;4.0.7.RELEASE in sbt-chain
@@ -602,7 +602,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-jdbc;4.0.7.RELEASE [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-tx;4.0.7.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-tx;4.0.7.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c164d2b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34b1e83f
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-tx;4.0.7.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-tx;4.0.7.RELEASE
 [debug] 	found org.springframework#spring-tx;4.0.7.RELEASE in sbt-chain
@@ -611,7 +611,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-tx;4.0.7.RELEASE [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.aspectj#aspectjrt;1.8.2 [compile->default(compile)]
 [info] Resolving org.aspectj#aspectjrt;1.8.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e9eb42
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f05eb5d
 [debug] sbt-chain: module revision found in cache: org.aspectj#aspectjrt;1.8.2
 [debug] 	local: revision in cache: org.aspectj#aspectjrt;1.8.2
 [debug] 	found org.aspectj#aspectjrt;1.8.2 in sbt-chain
@@ -620,7 +620,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.aspectj#aspectjrt;1.8.2 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.7.Final [compile->default(compile)]
 [info] Resolving org.hibernate#hibernate-entitymanager;4.3.7.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68f9ba9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@745d6d44
 [debug] sbt-chain: module revision found in cache: org.hibernate#hibernate-entitymanager;4.3.7.Final
 [debug] 	local: revision in cache: org.hibernate#hibernate-entitymanager;4.3.7.Final
 [debug] 	found org.hibernate#hibernate-entitymanager;4.3.7.Final in sbt-chain
@@ -629,7 +629,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.7.Final [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.jboss.logging#jboss-logging-annotations;1.2.0.Beta1 [compile->default(compile)]
 [info] Resolving org.jboss.logging#jboss-logging-annotations;1.2.0.Beta1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a7119ac
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@318551e
 [debug] sbt-chain: module revision found in cache: org.jboss.logging#jboss-logging-annotations;1.2.0.Beta1
 [debug] 	local: revision in cache: org.jboss.logging#jboss-logging-annotations;1.2.0.Beta1
 [debug] 	found org.jboss.logging#jboss-logging-annotations;1.2.0.Beta1 in sbt-chain
@@ -638,7 +638,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.jboss.logging#jboss-logging-annotations;1.2.0.Beta1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-core;4.3.7.Final [compile->default(compile)]
 [info] Resolving org.hibernate#hibernate-core;4.3.7.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1510831
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@646bc18b
 [debug] sbt-chain: module revision found in cache: org.hibernate#hibernate-core;4.3.7.Final
 [debug] 	local: revision in cache: org.hibernate#hibernate-core;4.3.7.Final
 [debug] 	found org.hibernate#hibernate-core;4.3.7.Final in sbt-chain
@@ -647,7 +647,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-core;4.3.7.Final [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.jboss.spec.javax.transaction#jboss-transaction-api_1.2_spec;1.0.0.Final [compile->default(compile)]
 [info] Resolving org.jboss.spec.javax.transaction#jboss-transaction-api_1.2_spec;1.0.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ddb77f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f63cac9
 [debug] sbt-chain: module revision found in cache: org.jboss.spec.javax.transaction#jboss-transaction-api_1.2_spec;1.0.0.Final
 [debug] 	local: revision in cache: org.jboss.spec.javax.transaction#jboss-transaction-api_1.2_spec;1.0.0.Final
 [debug] 	found org.jboss.spec.javax.transaction#jboss-transaction-api_1.2_spec;1.0.0.Final in sbt-chain
@@ -656,7 +656,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.jboss.spec.javax.transaction#jboss-transaction-api_1.2_spec;1.0.0.Final [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate.common#hibernate-commons-annotations;4.0.5.Final [compile->default(compile)]
 [info] Resolving org.hibernate.common#hibernate-commons-annotations;4.0.5.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f162b8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@302dd52b
 [debug] sbt-chain: module revision found in cache: org.hibernate.common#hibernate-commons-annotations;4.0.5.Final
 [debug] 	local: revision in cache: org.hibernate.common#hibernate-commons-annotations;4.0.5.Final
 [debug] 	found org.hibernate.common#hibernate-commons-annotations;4.0.5.Final in sbt-chain
@@ -665,7 +665,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate.common#hibernate-commons-annotations;4.0.5.Final [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->default(compile)]
 [info] Resolving org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51983499
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63d8b3fd
 [debug] sbt-chain: module revision found in cache: org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final
 [debug] 	local: revision in cache: org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final
 [debug] 	found org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final in sbt-chain
@@ -674,7 +674,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.jboss#jandex;1.1.0.Final [compile->default(compile)]
 [info] Resolving org.jboss#jandex;1.1.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e139c3a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@726f1f65
 [debug] sbt-chain: module revision found in cache: org.jboss#jandex;1.1.0.Final
 [debug] 	local: revision in cache: org.jboss#jandex;1.1.0.Final
 [debug] 	found org.jboss#jandex;1.1.0.Final in sbt-chain
@@ -683,7 +683,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.jboss#jandex;1.1.0.Final [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->default(compile)]
 [info] Resolving mysql#mysql-connector-java;5.1.34 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b7e54d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58e4109f
 [debug] sbt-chain: module revision found in cache: mysql#mysql-connector-java;5.1.34
 [debug] 	local: revision in cache: mysql#mysql-connector-java;5.1.34
 [debug] 	found mysql#mysql-connector-java;5.1.34 in sbt-chain
@@ -692,7 +692,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.3.1 [compile->default(compile)]
 [info] Resolving com.google.code.gson#gson;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68f6140b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@487c66d5
 [debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.3.1
 [debug] 	local: revision in cache: com.google.code.gson#gson;2.3.1
 [debug] 	found com.google.code.gson#gson;2.3.1 in sbt-chain
@@ -701,7 +701,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.3.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-c3p0;4.3.7.Final [compile->default(compile)]
 [info] Resolving org.hibernate#hibernate-c3p0;4.3.7.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56b02a5c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57c2cc1a
 [debug] sbt-chain: module revision found in cache: org.hibernate#hibernate-c3p0;4.3.7.Final
 [debug] 	local: revision in cache: org.hibernate#hibernate-c3p0;4.3.7.Final
 [debug] 	found org.hibernate#hibernate-c3p0;4.3.7.Final in sbt-chain
@@ -710,7 +710,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-c3p0;4.3.7.Final [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.mchange#c3p0;0.9.2.1 [compile->default(compile)]
 [info] Resolving com.mchange#c3p0;0.9.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ff1d757
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@614724ad
 [debug] sbt-chain: module revision found in cache: com.mchange#c3p0;0.9.2.1
 [debug] 	local: revision in cache: com.mchange#c3p0;0.9.2.1
 [debug] 	found com.mchange#c3p0;0.9.2.1 in sbt-chain
@@ -719,7 +719,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.mchange#c3p0;0.9.2.1 [compile->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.mchange#mchange-commons-java;0.2.3.4 [compile->default(compile)]
 [info] Resolving com.mchange#mchange-commons-java;0.2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fb97034
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60a1b102
 [debug] sbt-chain: module revision found in cache: com.mchange#mchange-commons-java;0.2.3.4
 [debug] 	local: revision in cache: com.mchange#mchange-commons-java;0.2.3.4
 [debug] 	found com.mchange#mchange-commons-java;0.2.3.4 in sbt-chain
@@ -2315,7 +2315,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.mchange#mchange-commons-java;0.2.3.4 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.3.7 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c7523b0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a7aa47b
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-test_2.11;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-test_2.11;2.3.7
 [debug] 	found com.typesafe.play#play-test_2.11;2.3.7 in sbt-chain
@@ -2324,7 +2324,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.3.7 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->junit#junit;4.11 [test->default(compile)]
 [info] Resolving junit#junit;4.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b30ad5b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@262c033e
 [debug] sbt-chain: module revision found in cache: junit#junit;4.11
 [debug] 	local: revision in cache: junit#junit;4.11
 [debug] 	found junit#junit;4.11 in sbt-chain
@@ -2333,7 +2333,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->junit#junit;4.11 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ecc526b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bd2fe52
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	local: revision in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
@@ -2342,7 +2342,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-core_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-core_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2637aef1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c67af1e
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-core_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-core_2.11;2.3.12
 [debug] 	found org.specs2#specs2-core_2.11;2.3.12 in sbt-chain
@@ -2351,7 +2351,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-core_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-matcher_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-matcher_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f627dd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6abb4517
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-matcher_2.11;2.3.12
 [debug] 	found org.specs2#specs2-matcher_2.11;2.3.12 in sbt-chain
@@ -2360,7 +2360,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-matcher_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-common_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-common_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bdead02
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79050d28
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-common_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-common_2.11;2.3.12
 [debug] 	found org.specs2#specs2-common_2.11;2.3.12 in sbt-chain
@@ -2369,7 +2369,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-common_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.11;7.0.6 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-core_2.11;7.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@728ab283
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e335b50
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.11;7.0.6
 [debug] 	local: revision in cache: org.scalaz#scalaz-core_2.11;7.0.6
 [debug] 	found org.scalaz#scalaz-core_2.11;7.0.6 in sbt-chain
@@ -2378,7 +2378,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.11;7.0.6 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.0.6 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-concurrent_2.11;7.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e78684b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12f6248e
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.11;7.0.6
 [debug] 	local: revision in cache: org.scalaz#scalaz-concurrent_2.11;7.0.6
 [debug] 	found org.scalaz#scalaz-concurrent_2.11;7.0.6 in sbt-chain
@@ -2387,7 +2387,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.0.6 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.11;7.0.6 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-effect_2.11;7.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b558158
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d6fdca4
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.11;7.0.6
 [debug] 	local: revision in cache: org.scalaz#scalaz-effect_2.11;7.0.6
 [debug] 	found org.scalaz#scalaz-effect_2.11;7.0.6 in sbt-chain
@@ -2396,7 +2396,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.11;7.0.6 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-junit_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-junit_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3465d067
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b3440c1
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-junit_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-junit_2.11;2.3.12
 [debug] 	found org.specs2#specs2-junit_2.11;2.3.12 in sbt-chain
@@ -2405,7 +2405,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-junit_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-mock_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-mock_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32e57584
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6611c094
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-mock_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-mock_2.11;2.3.12
 [debug] 	found org.specs2#specs2-mock_2.11;2.3.12 in sbt-chain
@@ -2414,7 +2414,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-mock_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-matcher-extra_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-matcher-extra_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@455ede36
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@661052a8
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher-extra_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-matcher-extra_2.11;2.3.12
 [debug] 	found org.specs2#specs2-matcher-extra_2.11;2.3.12 in sbt-chain
@@ -2423,7 +2423,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-matcher-extra_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-analysis_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-analysis_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c29573c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b44815d
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-analysis_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-analysis_2.11;2.3.12
 [debug] 	found org.specs2#specs2-analysis_2.11;2.3.12 in sbt-chain
@@ -2432,7 +2432,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-analysis_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.0 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f33bfd1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@177d502e
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.0
 [debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.11.0
 [debug] 	found org.scala-lang#scala-compiler;2.11.0 in sbt-chain
@@ -2441,7 +2441,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#classycle;1.4.3 [test->default(compile)]
 [info] Resolving org.specs2#classycle;1.4.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27bd8e9e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f457706
 [debug] sbt-chain: module revision found in cache: org.specs2#classycle;1.4.3
 [debug] 	local: revision in cache: org.specs2#classycle;1.4.3
 [debug] 	found org.specs2#classycle;1.4.3 in sbt-chain
@@ -2450,7 +2450,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#classycle;1.4.3 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.novocode#junit-interface;0.11-RC1 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.11-RC1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b32be48
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@733a3d4b
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.11-RC1
 [debug] 	local: revision in cache: com.novocode#junit-interface;0.11-RC1
 [debug] 	found com.novocode#junit-interface;0.11-RC1 in sbt-chain
@@ -2459,7 +2459,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->com.novocode#junit-interface;0.11-RC1 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ae8df85
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53e77bfb
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	local: revision in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
@@ -2468,7 +2468,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-festassert;0.9.2 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-festassert;0.9.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@598d704f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e80f6bc
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-festassert;0.9.2
 [debug] 	local: revision in cache: org.fluentlenium#fluentlenium-festassert;0.9.2
 [debug] 	found org.fluentlenium#fluentlenium-festassert;0.9.2 in sbt-chain
@@ -2477,7 +2477,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-festassert;0.9.2 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-core;0.9.2 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-core;0.9.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52ec9596
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54001733
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-core;0.9.2
 [debug] 	local: revision in cache: org.fluentlenium#fluentlenium-core;0.9.2
 [debug] 	found org.fluentlenium#fluentlenium-core;0.9.2 in sbt-chain
@@ -2486,7 +2486,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-core;0.9.2 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-java;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-java;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34baadf5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4af9c303
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-java;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-java;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-java;2.39.0 in sbt-chain
@@ -2495,7 +2495,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-java;2.39.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-android-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-android-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61062f5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@246430e9
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-android-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-android-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-android-driver;2.39.0 in sbt-chain
@@ -2504,7 +2504,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-android-driver;2.39.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42882335
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ed325a3
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-remote-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-remote-driver;2.39.0 in sbt-chain
@@ -2513,7 +2513,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->cglib#cglib-nodep;2.1_3 [test->default(compile)]
 [info] Resolving cglib#cglib-nodep;2.1_3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45747870
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ded79db
 [debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3
 [debug] 	local: revision in cache: cglib#cglib-nodep;2.1_3
 [debug] 	found cglib#cglib-nodep;2.1_3 in sbt-chain
@@ -2522,7 +2522,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->cglib#cglib-nodep;2.1_3 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.json#json;20080701 [test->default(compile)]
 [info] Resolving org.json#json;20080701 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e4e0251
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78c8007e
 [debug] sbt-chain: module revision found in cache: org.json#json;20080701
 [debug] 	local: revision in cache: org.json#json;20080701
 [debug] 	found org.json#json;20080701 in sbt-chain
@@ -2531,7 +2531,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.json#json;20080701 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ea0781a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c1342f2
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-api;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-api;2.39.0 in sbt-chain
@@ -2540,7 +2540,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;2.39.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.3.1 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f4ed8f6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c6eeb79
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.3.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpclient;4.3.1
 [debug] 	found org.apache.httpcomponents#httpclient;4.3.1 in sbt-chain
@@ -2549,7 +2549,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.3.1 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.3 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44d56252
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1601f525
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.3
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpcore;4.3
 [debug] 	found org.apache.httpcomponents#httpcore;4.3 in sbt-chain
@@ -2558,7 +2558,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.3 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@492781bd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75a8067f
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.1
 [debug] 	local: revision in cache: org.apache.commons#commons-exec;1.1
 [debug] 	found org.apache.commons#commons-exec;1.1 in sbt-chain
@@ -2567,7 +2567,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#jna;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@512b9fef
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@136f53e5
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	local: revision in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	found net.java.dev.jna#jna;3.4.0 in sbt-chain
@@ -2576,7 +2576,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#jna;3.4.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#platform;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#platform;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7003a3cc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c000ef9
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	local: revision in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	found net.java.dev.jna#platform;3.4.0 in sbt-chain
@@ -2585,7 +2585,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#platform;3.4.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1019d6af
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25108444
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 in sbt-chain
@@ -2594,7 +2594,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e1933b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e68ab93
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 in sbt-chain
@@ -2603,7 +2603,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit;2.13 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit;2.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ba5e530
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55e3c217
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.13
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit;2.13
 [debug] 	found net.sourceforge.htmlunit#htmlunit;2.13 in sbt-chain
@@ -2612,7 +2612,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit;2.13 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->xalan#xalan;2.7.1 [test->default(compile)]
 [info] Resolving xalan#xalan;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32277ec6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25ac1e15
 [debug] sbt-chain: module revision found in cache: xalan#xalan;2.7.1
 [debug] 	local: revision in cache: xalan#xalan;2.7.1
 [debug] 	found xalan#xalan;2.7.1 in sbt-chain
@@ -2621,7 +2621,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->xalan#xalan;2.7.1 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->default(compile)]
 [info] Resolving xalan#serializer;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d77c487
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a13cab1
 [debug] sbt-chain: module revision found in cache: xalan#serializer;2.7.1
 [debug] 	local: revision in cache: xalan#serializer;2.7.1
 [debug] 	found xalan#serializer;2.7.1 in sbt-chain
@@ -2630,7 +2630,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [test->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66279903
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d2534c3
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	local: revision in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
@@ -2639,7 +2639,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.3.1 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e469cb2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4432576d
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.3.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpmime;4.3.1
 [debug] 	found org.apache.httpcomponents#httpmime;4.3.1 in sbt-chain
@@ -2648,7 +2648,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.3.1 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit-core-js;2.13 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit-core-js;2.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ff6219f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5634f180
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.13
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.13
 [debug] 	found net.sourceforge.htmlunit#htmlunit-core-js;2.13 in sbt-chain
@@ -2657,7 +2657,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit-core-js;2.13 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.19 [test->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.19 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9ed0833
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@727d726e
 [debug] sbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.19
 [debug] 	local: revision in cache: net.sourceforge.nekohtml#nekohtml;1.9.19
 [debug] 	found net.sourceforge.nekohtml#nekohtml;1.9.19 in sbt-chain
@@ -2666,7 +2666,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.19 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.cssparser#cssparser;0.9.11 [test->default(compile)]
 [info] Resolving net.sourceforge.cssparser#cssparser;0.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20b4dcbb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f3739dd
 [debug] sbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.11
 [debug] 	local: revision in cache: net.sourceforge.cssparser#cssparser;0.9.11
 [debug] 	found net.sourceforge.cssparser#cssparser;0.9.11 in sbt-chain
@@ -2675,7 +2675,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.cssparser#cssparser;0.9.11 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.w3c.css#sac;1.3 [test->default(compile)]
 [info] Resolving org.w3c.css#sac;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b0f129c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@750f581f
 [debug] sbt-chain: module revision found in cache: org.w3c.css#sac;1.3
 [debug] 	local: revision in cache: org.w3c.css#sac;1.3
 [debug] 	found org.w3c.css#sac;1.3 in sbt-chain
@@ -2684,7 +2684,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.w3c.css#sac;1.3 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->commons-io#commons-io;2.2 [test->default(compile)]
 [info] Resolving commons-io#commons-io;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@480fc6fe
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32cdc8a7
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.2
 [debug] 	local: revision in cache: commons-io#commons-io;2.2
 [debug] 	found commons-io#commons-io;2.2 in sbt-chain
@@ -2693,7 +2693,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->commons-io#commons-io;2.2 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c3e925c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c488d8
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-websocket;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 in sbt-chain
@@ -2702,7 +2702,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@593b69fb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47f58e8e
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-util;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.12.v20130726 in sbt-chain
@@ -2711,7 +2711,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24dbfba3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@609dd8a2
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-io;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.12.v20130726 in sbt-chain
@@ -2720,7 +2720,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56d02df1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cbc4e75
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-http;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.12.v20130726 in sbt-chain
@@ -2729,7 +2729,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b003562
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64cde99c
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 in sbt-chain
@@ -2738,7 +2738,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-ie-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60995d77
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72849e
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-ie-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-ie-driver;2.39.0 in sbt-chain
@@ -2747,7 +2747,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-ie-driver;2.39.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@420f513b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@377b3a2f
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-iphone-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-iphone-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 in sbt-chain
@@ -2756,7 +2756,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-safari-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70993dff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42503072
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-safari-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-safari-driver;2.39.0 in sbt-chain
@@ -2765,7 +2765,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-safari-driver;2.39.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.webbitserver#webbit;0.4.14 [test->default(compile)]
 [info] Resolving org.webbitserver#webbit;0.4.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a5534f4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e518f45
 [debug] sbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14
 [debug] 	local: revision in cache: org.webbitserver#webbit;0.4.14
 [debug] 	found org.webbitserver#webbit;0.4.14 in sbt-chain
@@ -2774,7 +2774,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.webbitserver#webbit;0.4.14 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-support;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33a145e2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56930704
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-support;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-support;2.39.0 in sbt-chain
@@ -2783,7 +2783,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-support;2.39.0 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.easytesting#fest-assert;1.4 [test->default(compile)]
 [info] Resolving org.easytesting#fest-assert;1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@202eb854
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6dcbabcd
 [debug] sbt-chain: module revision found in cache: org.easytesting#fest-assert;1.4
 [debug] 	local: revision in cache: org.easytesting#fest-assert;1.4
 [debug] 	found org.easytesting#fest-assert;1.4 in sbt-chain
@@ -2792,7 +2792,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.easytesting#fest-assert;1.4 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.easytesting#fest-util;1.1.6 [test->default(compile)]
 [info] Resolving org.easytesting#fest-util;1.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2aa5e2b6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2246dca6
 [debug] sbt-chain: module revision found in cache: org.easytesting#fest-util;1.1.6
 [debug] 	local: revision in cache: org.easytesting#fest-util;1.1.6
 [debug] 	found org.easytesting#fest-util;1.1.6 in sbt-chain
@@ -2801,7 +2801,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.easytesting#fest-util;1.1.6 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.mockito#mockito-core;1.10.19 [test->default(compile)]
 [info] Resolving org.mockito#mockito-core;1.10.19 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1589b955
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@402a3d05
 [debug] sbt-chain: module revision found in cache: org.mockito#mockito-core;1.10.19
 [debug] 	local: revision in cache: org.mockito#mockito-core;1.10.19
 [debug] 	found org.mockito#mockito-core;1.10.19 in sbt-chain
@@ -2810,7 +2810,7 @@
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.mockito#mockito-core;1.10.19 [test->master]
 [debug] == resolving dependencies apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT->org.objenesis#objenesis;2.1 [test->default(compile)]
 [info] Resolving org.objenesis#objenesis;2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e55cf4b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e2a5c6f
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;2.1
 [debug] 	local: revision in cache: org.objenesis#objenesis;2.1
 [debug] 	found org.objenesis#objenesis;2.1 in sbt-chain
@@ -12512,8 +12512,8 @@
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;2.0.3!jsr305.jar
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;2.0.3!jsr305.jar(src)
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;2.0.3!jsr305.jar(doc)
-[debug] 	[NOT REQUIRED] org.apache.tomcat#tomcat-servlet-api;8.0.5!tomcat-servlet-api.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.tomcat#tomcat-servlet-api;8.0.5!tomcat-servlet-api.jar
+[debug] 	[NOT REQUIRED] org.apache.tomcat#tomcat-servlet-api;8.0.5!tomcat-servlet-api.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.3.7!play-cache_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.3.7!play-cache_2.11.jar(src)
 [debug] 	[NOT REQUIRED] net.sf.ehcache#ehcache-core;2.6.8!ehcache-core.jar
@@ -12844,7 +12844,7 @@
 [debug] 	[NOT REQUIRED] org.aspectj#aspectjweaver;1.7.3!aspectjweaver.jar(src)
 [debug] 	[NOT REQUIRED] org.jacoco#org.jacoco.agent;0.7.1.201405082137!org.jacoco.agent.jar(src)
 [debug] 	[NOT REQUIRED] org.jacoco#org.jacoco.agent;0.7.1.201405082137!org.jacoco.agent.jar(doc)
-[debug] :: resolution report :: resolve 14096ms :: artifacts dl 1047ms
+[debug] :: resolution report :: resolve 4789ms :: artifacts dl 1580ms
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	::              FAILED DOWNLOADS            ::
 [warn] 	:: ^ see resolution messages for details  ^ ::
@@ -12869,4 +12869,4 @@
 [debug] 	report for apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT echo-weave produced in /Users/ethan/workspace/SOC-Fall-2015/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend$sources_javadoc_2.11-echo-weave.xml
 [debug] 	report for apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT echo-sigar produced in /Users/ethan/workspace/SOC-Fall-2015/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend$sources_javadoc_2.11-echo-sigar.xml
 [debug] 	report for apachecmda_backend#apachecmda_backend$sources_javadoc_2.11;1.0-SNAPSHOT jacoco produced in /Users/ethan/workspace/SOC-Fall-2015/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend$sources_javadoc_2.11-jacoco.xml
-[debug] 	resolve done (14096ms resolve - 1047ms download)
+[debug] 	resolve done (4789ms resolve - 1580ms download)

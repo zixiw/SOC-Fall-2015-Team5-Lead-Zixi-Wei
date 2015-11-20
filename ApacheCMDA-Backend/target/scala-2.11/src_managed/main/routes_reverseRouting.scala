@@ -1,6 +1,6 @@
 // @SOURCE:/home/SOC-Fall-2015/ApacheCMDA-Backend/conf/routes
-// @HASH:fd3dfee6ad44f50d04b8239a3ca4040cfbf571c3
-// @DATE:Fri Nov 20 06:49:01 UTC 2015
+// @HASH:cf15523e002cb18844e1058fe2b678145ce52482
+// @DATE:Fri Nov 20 19:55:28 UTC 2015
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -15,9 +15,10 @@ import _root_.play.libs.F
 import Router.queryString
 
 
-// @LINE:74
+// @LINE:75
+// @LINE:72
 // @LINE:71
-// @LINE:70
+// @LINE:68
 // @LINE:67
 // @LINE:66
 // @LINE:63
@@ -65,11 +66,11 @@ import Router.queryString
 // @LINE:10
 package controllers {
 
-// @LINE:74
+// @LINE:75
 class ReverseAssets {
 
 
-// @LINE:74
+// @LINE:75
 def at(file:String): Call = {
    implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
@@ -79,19 +80,19 @@ def at(file:String): Call = {
 }
                           
 
+// @LINE:72
 // @LINE:71
-// @LINE:70
 class ReverseAWrokflowController {
 
 
-// @LINE:71
+// @LINE:72
 def getWorkflow(name:String): Call = {
    import ReverseRouteContext.empty
    Call("GET", _prefix + { _defaultPrefix } + "workflow/get/" + implicitly[PathBindable[String]].unbind("name", dynamicString(name)))
 }
                         
 
-// @LINE:70
+// @LINE:71
 def addWorkflow(): Call = {
    import ReverseRouteContext.empty
    Call("POST", _prefix + { _defaultPrefix } + "workflow/add")
@@ -299,10 +300,18 @@ def addParameter(): Call = {
 }
                           
 
+// @LINE:68
 // @LINE:67
 // @LINE:66
 class ReverseAUserController {
 
+
+// @LINE:68
+def getUser(email:String): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "user/get/" + implicitly[PathBindable[String]].unbind("email", dynamicString(email)))
+}
+                        
 
 // @LINE:67
 def register(): Call = {
@@ -518,9 +527,10 @@ def updateTag(): Call = {
                   
 
 
-// @LINE:74
+// @LINE:75
+// @LINE:72
 // @LINE:71
-// @LINE:70
+// @LINE:68
 // @LINE:67
 // @LINE:66
 // @LINE:63
@@ -569,11 +579,11 @@ def updateTag(): Call = {
 package controllers.javascript {
 import ReverseRouteContext.empty
 
-// @LINE:74
+// @LINE:75
 class ReverseAssets {
 
 
-// @LINE:74
+// @LINE:75
 def at : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.at",
    """
@@ -587,12 +597,12 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:72
 // @LINE:71
-// @LINE:70
 class ReverseAWrokflowController {
 
 
-// @LINE:71
+// @LINE:72
 def getWorkflow : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.AWrokflowController.getWorkflow",
    """
@@ -603,7 +613,7 @@ def getWorkflow : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:70
+// @LINE:71
 def addWorkflow : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.AWrokflowController.addWorkflow",
    """
@@ -899,10 +909,22 @@ def addParameter : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:68
 // @LINE:67
 // @LINE:66
 class ReverseAUserController {
 
+
+// @LINE:68
+def getUser : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.AUserController.getUser",
+   """
+      function(email) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "user/get/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("email", encodeURIComponent(email))})
+      }
+   """
+)
+                        
 
 // @LINE:67
 def register : JavascriptReverseRoute = JavascriptReverseRoute(
@@ -1214,9 +1236,10 @@ def updateTag : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
-// @LINE:74
+// @LINE:75
+// @LINE:72
 // @LINE:71
-// @LINE:70
+// @LINE:68
 // @LINE:67
 // @LINE:66
 // @LINE:63
@@ -1265,11 +1288,11 @@ def updateTag : JavascriptReverseRoute = JavascriptReverseRoute(
 package controllers.ref {
 
 
-// @LINE:74
+// @LINE:75
 class ReverseAssets {
 
 
-// @LINE:74
+// @LINE:75
 def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.at(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )
@@ -1278,18 +1301,18 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 }
                           
 
+// @LINE:72
 // @LINE:71
-// @LINE:70
 class ReverseAWrokflowController {
 
 
-// @LINE:71
+// @LINE:72
 def getWorkflow(name:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AWrokflowController]).getWorkflow(name), HandlerDef(this.getClass.getClassLoader, "", "controllers.AWrokflowController", "getWorkflow", Seq(classOf[String]), "GET", """""", _prefix + """workflow/get/$name<[^/]+>""")
 )
                       
 
-// @LINE:70
+// @LINE:71
 def addWorkflow(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AWrokflowController]).addWorkflow(), HandlerDef(this.getClass.getClassLoader, "", "controllers.AWrokflowController", "addWorkflow", Seq(), "POST", """Aworkflow""", _prefix + """workflow/add""")
 )
@@ -1475,10 +1498,17 @@ def addParameter(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 }
                           
 
+// @LINE:68
 // @LINE:67
 // @LINE:66
 class ReverseAUserController {
 
+
+// @LINE:68
+def getUser(email:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AUserController]).getUser(email), HandlerDef(this.getClass.getClassLoader, "", "controllers.AUserController", "getUser", Seq(classOf[String]), "GET", """""", _prefix + """user/get/$email<[^/]+>""")
+)
+                      
 
 // @LINE:67
 def register(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(

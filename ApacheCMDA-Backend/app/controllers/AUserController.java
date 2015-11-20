@@ -1,10 +1,9 @@
 package controllers;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import models.AUser;
-import models.AUserRepository;
-import models.User;
-import models.UserRepository;
+import com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor;
+import com.google.gson.JsonObject;
+import models.*;
 import play.mvc.Controller;
 import play.mvc.Result;
 
@@ -84,5 +83,19 @@ public class AUserController extends Controller {
         aUserRepository.save(aUser);
         return ok("register successful");
     }
+
+
+    public Result getUser(String email) {
+        AUser aUser = aUserRepository.findByEmail(email);
+        if(aUser == null) {
+            System.out.println("cannot find requested user");
+            return badRequest("cannot find requested user");
+        }
+        JsonObject jsonObject = aUser.toJson();
+        AWorkflow aWorkflow = aUser.getaWorkflow();
+        jsonObject.add("workflows", aWorkflow.toJson());
+        return created(jsonObject.toString());
+    }
+
 
 }

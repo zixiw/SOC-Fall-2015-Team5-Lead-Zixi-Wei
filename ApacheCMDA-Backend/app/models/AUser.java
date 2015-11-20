@@ -39,8 +39,8 @@ public class AUser {
 	private String faxNumber;
 	private String researchFields;
 	private String highestDegree;
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "aWorkflowId", referencedColumnName = "id")
+	@ManyToOne
+	@JoinColumn(name = "aworkflow_id", referencedColumnName = "id")
 	private AWorkflow aWorkflow;
 
 
@@ -212,7 +212,6 @@ public class AUser {
 		jsonObject.addProperty("researchFields", this.researchFields);
 		jsonObject.addProperty("highestDegree", this.highestDegree);
 		return jsonObject;
-
 	}
 
 }

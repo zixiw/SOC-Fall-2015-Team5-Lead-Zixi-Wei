@@ -65,6 +65,7 @@ POST          /tests/pageupdate                                                 
 # AUser
 POST          /home/login                                                                   @controllers.AUserController.login
 POST          /home/register                                                                @controllers.AUserController.register
+GET           /user/get/:email                                                              @controllers.AUserController.getUser(email: String)
 
 #Aworkflow
 POST          /workflow/add                                                                 @controllers.AWrokflowController.addWorkflow
