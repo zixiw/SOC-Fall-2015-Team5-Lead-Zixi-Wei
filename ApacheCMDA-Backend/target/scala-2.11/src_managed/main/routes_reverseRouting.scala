@@ -1,6 +1,6 @@
-// @SOURCE:/home/xingwei/SOC-Fall-2015/ApacheCMDA-Backend/conf/routes
-// @HASH:e96e26a337fbb66761533edb5e7687789222dff1
-// @DATE:Fri Sep 18 18:16:24 PDT 2015
+// @SOURCE:/home/SOC-Fall-2015/ApacheCMDA-Backend/conf/routes
+// @HASH:fd3dfee6ad44f50d04b8239a3ca4040cfbf571c3
+// @DATE:Fri Nov 20 06:49:01 UTC 2015
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -15,6 +15,15 @@ import _root_.play.libs.F
 import Router.queryString
 
 
+// @LINE:74
+// @LINE:71
+// @LINE:70
+// @LINE:67
+// @LINE:66
+// @LINE:63
+// @LINE:62
+// @LINE:61
+// @LINE:60
 // @LINE:58
 // @LINE:55
 // @LINE:54
@@ -56,14 +65,36 @@ import Router.queryString
 // @LINE:10
 package controllers {
 
-// @LINE:58
+// @LINE:74
 class ReverseAssets {
 
 
-// @LINE:58
+// @LINE:74
 def at(file:String): Call = {
    implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
+}
+                        
+
+}
+                          
+
+// @LINE:71
+// @LINE:70
+class ReverseAWrokflowController {
+
+
+// @LINE:71
+def getWorkflow(name:String): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "workflow/get/" + implicitly[PathBindable[String]].unbind("name", dynamicString(name)))
+}
+                        
+
+// @LINE:70
+def addWorkflow(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "workflow/add")
 }
                         
 
@@ -110,6 +141,20 @@ def updateInstrumentById(id:Long): Call = {
 def deleteInstrument(id:Long): Call = {
    import ReverseRouteContext.empty
    Call("DELETE", _prefix + { _defaultPrefix } + "instrument/deleteInstrument/id/" + implicitly[PathBindable[Long]].unbind("id", id))
+}
+                        
+
+}
+                          
+
+// @LINE:61
+class ReverseBtestController {
+
+
+// @LINE:61
+def addBtest(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "tests/tag")
 }
                         
 
@@ -178,6 +223,20 @@ def isUserValid(): Call = {
 }
                           
 
+// @LINE:58
+class ReverseATaskController {
+
+
+// @LINE:58
+def addATask(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "tasks/add")
+}
+                        
+
+}
+                          
+
 // @LINE:46
 // @LINE:45
 // @LINE:44
@@ -234,6 +293,28 @@ def deleteParameterByName(id:Long, name:String): Call = {
 def addParameter(): Call = {
    import ReverseRouteContext.empty
    Call("POST", _prefix + { _defaultPrefix } + "parameter/addParameter")
+}
+                        
+
+}
+                          
+
+// @LINE:67
+// @LINE:66
+class ReverseAUserController {
+
+
+// @LINE:67
+def register(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "home/register")
+}
+                        
+
+// @LINE:66
+def login(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "home/login")
 }
                         
 
@@ -403,10 +484,49 @@ def deleteClimateServiceByName(name:String): Call = {
 
 }
                           
+
+// @LINE:63
+// @LINE:62
+// @LINE:60
+class ReverseAtestController {
+
+
+// @LINE:62
+def getAtest(name:String): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "tests/pageget/" + implicitly[PathBindable[String]].unbind("name", dynamicString(name)))
+}
+                        
+
+// @LINE:60
+def addAtest(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "tests/pageadd")
+}
+                        
+
+// @LINE:63
+def updateTag(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "tests/pageupdate")
+}
+                        
+
+}
+                          
 }
                   
 
 
+// @LINE:74
+// @LINE:71
+// @LINE:70
+// @LINE:67
+// @LINE:66
+// @LINE:63
+// @LINE:62
+// @LINE:61
+// @LINE:60
 // @LINE:58
 // @LINE:55
 // @LINE:54
@@ -449,16 +569,46 @@ def deleteClimateServiceByName(name:String): Call = {
 package controllers.javascript {
 import ReverseRouteContext.empty
 
-// @LINE:58
+// @LINE:74
 class ReverseAssets {
 
 
-// @LINE:58
+// @LINE:74
 def at : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.at",
    """
       function(file) {
       return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "assets/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("file", file)})
+      }
+   """
+)
+                        
+
+}
+              
+
+// @LINE:71
+// @LINE:70
+class ReverseAWrokflowController {
+
+
+// @LINE:71
+def getWorkflow : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.AWrokflowController.getWorkflow",
+   """
+      function(name) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "workflow/get/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("name", encodeURIComponent(name))})
+      }
+   """
+)
+                        
+
+// @LINE:70
+def addWorkflow : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.AWrokflowController.addWorkflow",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "workflow/add"})
       }
    """
 )
@@ -525,6 +675,24 @@ def deleteInstrument : JavascriptReverseRoute = JavascriptReverseRoute(
    """
       function(id) {
       return _wA({method:"DELETE", url:"""" + _prefix + { _defaultPrefix } + """" + "instrument/deleteInstrument/id/" + (""" + implicitly[PathBindable[Long]].javascriptUnbind + """)("id", id)})
+      }
+   """
+)
+                        
+
+}
+              
+
+// @LINE:61
+class ReverseBtestController {
+
+
+// @LINE:61
+def addBtest : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.BtestController.addBtest",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "tests/tag"})
       }
    """
 )
@@ -623,6 +791,24 @@ def isUserValid : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:58
+class ReverseATaskController {
+
+
+// @LINE:58
+def addATask : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.ATaskController.addATask",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "tasks/add"})
+      }
+   """
+)
+                        
+
+}
+              
+
 // @LINE:46
 // @LINE:45
 // @LINE:44
@@ -705,6 +891,36 @@ def addParameter : JavascriptReverseRoute = JavascriptReverseRoute(
    """
       function() {
       return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "parameter/addParameter"})
+      }
+   """
+)
+                        
+
+}
+              
+
+// @LINE:67
+// @LINE:66
+class ReverseAUserController {
+
+
+// @LINE:67
+def register : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.AUserController.register",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "home/register"})
+      }
+   """
+)
+                        
+
+// @LINE:66
+def login : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.AUserController.login",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "home/login"})
       }
    """
 )
@@ -952,10 +1168,61 @@ def deleteClimateServiceByName : JavascriptReverseRoute = JavascriptReverseRoute
 
 }
               
+
+// @LINE:63
+// @LINE:62
+// @LINE:60
+class ReverseAtestController {
+
+
+// @LINE:62
+def getAtest : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.AtestController.getAtest",
+   """
+      function(name) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "tests/pageget/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("name", encodeURIComponent(name))})
+      }
+   """
+)
+                        
+
+// @LINE:60
+def addAtest : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.AtestController.addAtest",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "tests/pageadd"})
+      }
+   """
+)
+                        
+
+// @LINE:63
+def updateTag : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.AtestController.updateTag",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "tests/pageupdate"})
+      }
+   """
+)
+                        
+
+}
+              
 }
         
 
 
+// @LINE:74
+// @LINE:71
+// @LINE:70
+// @LINE:67
+// @LINE:66
+// @LINE:63
+// @LINE:62
+// @LINE:61
+// @LINE:60
 // @LINE:58
 // @LINE:55
 // @LINE:54
@@ -998,13 +1265,33 @@ def deleteClimateServiceByName : JavascriptReverseRoute = JavascriptReverseRoute
 package controllers.ref {
 
 
-// @LINE:58
+// @LINE:74
 class ReverseAssets {
 
 
-// @LINE:58
+// @LINE:74
 def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.at(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
+)
+                      
+
+}
+                          
+
+// @LINE:71
+// @LINE:70
+class ReverseAWrokflowController {
+
+
+// @LINE:71
+def getWorkflow(name:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AWrokflowController]).getWorkflow(name), HandlerDef(this.getClass.getClassLoader, "", "controllers.AWrokflowController", "getWorkflow", Seq(classOf[String]), "GET", """""", _prefix + """workflow/get/$name<[^/]+>""")
+)
+                      
+
+// @LINE:70
+def addWorkflow(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AWrokflowController]).addWorkflow(), HandlerDef(this.getClass.getClassLoader, "", "controllers.AWrokflowController", "addWorkflow", Seq(), "POST", """Aworkflow""", _prefix + """workflow/add""")
 )
                       
 
@@ -1046,6 +1333,19 @@ def updateInstrumentById(id:Long): play.api.mvc.HandlerRef[_] = new play.api.mvc
 // @LINE:29
 def deleteInstrument(id:Long): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.InstrumentController]).deleteInstrument(id), HandlerDef(this.getClass.getClassLoader, "", "controllers.InstrumentController", "deleteInstrument", Seq(classOf[Long]), "DELETE", """""", _prefix + """instrument/deleteInstrument/id/$id<[^/]+>""")
+)
+                      
+
+}
+                          
+
+// @LINE:61
+class ReverseBtestController {
+
+
+// @LINE:61
+def addBtest(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.BtestController]).addBtest(), HandlerDef(this.getClass.getClassLoader, "", "controllers.BtestController", "addBtest", Seq(), "POST", """""", _prefix + """tests/tag""")
 )
                       
 
@@ -1107,6 +1407,19 @@ def isUserValid(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 }
                           
 
+// @LINE:58
+class ReverseATaskController {
+
+
+// @LINE:58
+def addATask(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.ATaskController]).addATask(), HandlerDef(this.getClass.getClassLoader, "", "controllers.ATaskController", "addATask", Seq(), "POST", """ test""", _prefix + """tasks/add""")
+)
+                      
+
+}
+                          
+
 // @LINE:46
 // @LINE:45
 // @LINE:44
@@ -1156,6 +1469,26 @@ def deleteParameterByName(id:Long, name:String): play.api.mvc.HandlerRef[_] = ne
 // @LINE:43
 def addParameter(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.ParameterController]).addParameter(), HandlerDef(this.getClass.getClassLoader, "", "controllers.ParameterController", "addParameter", Seq(), "POST", """""", _prefix + """parameter/addParameter""")
+)
+                      
+
+}
+                          
+
+// @LINE:67
+// @LINE:66
+class ReverseAUserController {
+
+
+// @LINE:67
+def register(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AUserController]).register(), HandlerDef(this.getClass.getClassLoader, "", "controllers.AUserController", "register", Seq(), "POST", """""", _prefix + """home/register""")
+)
+                      
+
+// @LINE:66
+def login(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AUserController]).login(), HandlerDef(this.getClass.getClassLoader, "", "controllers.AUserController", "login", Seq(), "POST", """ AUser""", _prefix + """home/login""")
 )
                       
 
@@ -1301,6 +1634,33 @@ def updateClimateServiceByName(oldName:String): play.api.mvc.HandlerRef[_] = new
 // @LINE:22
 def deleteClimateServiceByName(name:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.ClimateServiceController]).deleteClimateServiceByName(name), HandlerDef(this.getClass.getClassLoader, "", "controllers.ClimateServiceController", "deleteClimateServiceByName", Seq(classOf[String]), "DELETE", """""", _prefix + """climateService/deleteClimateService/name/$name<[^/]+>""")
+)
+                      
+
+}
+                          
+
+// @LINE:63
+// @LINE:62
+// @LINE:60
+class ReverseAtestController {
+
+
+// @LINE:62
+def getAtest(name:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AtestController]).getAtest(name), HandlerDef(this.getClass.getClassLoader, "", "controllers.AtestController", "getAtest", Seq(classOf[String]), "GET", """""", _prefix + """tests/pageget/$name<[^/]+>""")
+)
+                      
+
+// @LINE:60
+def addAtest(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AtestController]).addAtest(), HandlerDef(this.getClass.getClassLoader, "", "controllers.AtestController", "addAtest", Seq(), "POST", """""", _prefix + """tests/pageadd""")
+)
+                      
+
+// @LINE:63
+def updateTag(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AtestController]).updateTag(), HandlerDef(this.getClass.getClassLoader, "", "controllers.AtestController", "updateTag", Seq(), "POST", """""", _prefix + """tests/pageupdate""")
 )
                       
 

@@ -1,5 +1,7 @@
 package models;
 
+import com.google.gson.JsonObject;
+
 import javax.persistence.*;
 
 /**
@@ -14,6 +16,13 @@ public class ATag {
     @ManyToOne
     @JoinColumn(name = "aworkflow_id", referencedColumnName = "id")
     private AWorkflow aWorkflow;
+
+    public ATag() {}
+
+    public ATag(String content, AWorkflow aWorkflow) {
+        this.content = content;
+        this.aWorkflow = aWorkflow;
+    }
 
     public long getId() {
         return id;
@@ -39,5 +48,11 @@ public class ATag {
 
     public void setaWorkflow(AWorkflow aWorkflow) {
         this.aWorkflow = aWorkflow;
+    }
+
+    public JsonObject toJson() {
+        JsonObject jsonObject = new JsonObject();
+        jsonObject.addProperty("content", this.content);
+        return jsonObject;
     }
 }

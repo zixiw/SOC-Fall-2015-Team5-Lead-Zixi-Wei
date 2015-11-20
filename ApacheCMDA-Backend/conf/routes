@@ -53,7 +53,6 @@ DELETE        /users/delete/:id                                                 
 GET           /users/getAllUsers/json                                                       @controllers.UserController.getAllUsers(format: String="json")
 POST          /users/isUserValid                                                            @controllers.UserController.isUserValid
 DELETE        /users/delete/userName/:userName/password/:password                           @controllers.UserController.deleteUserByUserNameandPassword(userName: String, password: String)
-POST          /home/login                                                                   @controllers.UserController.login
 
 # test
 POST          /tasks/add                                                                    @controllers.ATaskController.addATask
@@ -63,7 +62,9 @@ POST          /tests/tag                                                        
 GET           /tests/pageget/:name                                                          @controllers.AtestController.getAtest(name: String)
 POST          /tests/pageupdate                                                             @controllers.AtestController.updateTag
 
-
+# AUser
+POST          /home/login                                                                   @controllers.AUserController.login
+POST          /home/register                                                                @controllers.AUserController.register
 
 #Aworkflow
 POST          /workflow/add                                                                 @controllers.AWrokflowController.addWorkflow

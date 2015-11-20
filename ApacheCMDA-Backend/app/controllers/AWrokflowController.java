@@ -2,6 +2,8 @@ package controllers;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 import models.*;
 import play.mvc.Controller;
 import play.mvc.Result;
@@ -21,10 +23,12 @@ import java.util.Set;
 public class AWrokflowController extends Controller {
 
     private final AWorkflowRepository aWorkflowRepository;
+    private final AUserRepository aUserRepository;
 
     @Inject
-    public AWrokflowController(final AWorkflowRepository aWorkflowRepository) {
+    public AWrokflowController(final AWorkflowRepository aWorkflowRepository, final AUserRepository aUserRepository) {
         this.aWorkflowRepository = aWorkflowRepository;
+        this.aUserRepository = aUserRepository;
     }
 
 
@@ -48,8 +52,6 @@ public class AWrokflowController extends Controller {
         JsonNode associatedDatasets = json.path("associatedDatasets");
         JsonNode associateWorkflow = json.path("associateWorkflow");
 
-
-
         try {
             if (aWorkflowRepository.findFirstByName(name) != null) {
                 System.out.println("Name existed: " + name);
@@ -59,6 +61,7 @@ public class AWrokflowController extends Controller {
             workflow.setName(name);
             workflow.setDescription(description);
             workflow.setPreviewImage(previewImage);
+            // set task
             Set<ATask> taskSet = new HashSet<ATask>();
             for (int i = 0; i < tasks.size(); i++) {
                 JsonNode task = tasks.get(i);
@@ -67,6 +70,7 @@ public class AWrokflowController extends Controller {
                 taskSet.add(new ATask(taskname,taskcontent,workflow ));
             }
             workflow.setTasks(taskSet);
+            // set input
             Set<AInput> inputSet = new HashSet<AInput>();
             for (int i = 0; i < inputs.size(); i++) {
                 JsonNode input = inputs.get(i);
@@ -75,9 +79,85 @@ public class AWrokflowController extends Controller {
                 inputSet.add(new AInput(inputname,inputcontent,workflow ));
             }
             workflow.setInputs(inputSet);
+            // set output
+            Set<AOutput> outputSet = new HashSet<AOutput>();
+            for (int i = 0; i < outputs.size(); i++) {
+                JsonNode output = outputs.get(i);
+                String outputname= output.path("name").asText();
+                String outputcontent=output.path("content").asText();
+                outputSet.add(new AOutput(outputname,outputcontent,workflow ));
+            }
+            workflow.setOutputs(outputSet);
+            // set contributors
+            Set<AUser> userSet = new HashSet<AUser>();
+            for (int i = 0; i < contributors.size(); i++) {
+                JsonNode user = contributors.get(i);
+                String userName= user.path("userName").asText();
+                String firstName= user.path("firstName").asText();
+                String lastName= user.path("lastName").asText();
+                String middleInitial= user.path("middleInitial").asText();
+                String affiliation= user.path("affiliation").asText();
+                String title= user.path("title").asText();
+                String email= user.path("email").asText();
+                String mailingAddress= user.path("mailingAddress").asText();
+                String phoneNumber= user.path("phoneNumber").asText();
+                String faxNumber= user.path("faxNumber").asText();
+                String researchFields= user.path("researchFields").asText();
+                String highestDegree= user.path("highestDegree").asText();
+                String password = null;
+                if (aUserRepository.findFirstByUserName(userName) != null) {
+                    AUser tempuser = aUserRepository.findFirstByUserName(userName);
+                    password = tempuser.getPassword();
+                    aUserRepository.delete(tempuser);
+                }
+                userSet.add(new AUser(userName, password,firstName, lastName, middleInitial, affiliation, title, email, mailingAddress, phoneNumber, faxNumber, researchFields, highestDegree, workflow ));
+            }
+            workflow.setContributors(userSet);
+            // set tags
+            Set<ATag> tagSet = new HashSet<ATag>();
+            for (int i = 0; i < tags.size(); i++) {
+                JsonNode tag = tags.get(i);
+                String tagcontent=tag.path("content").asText();
+                tagSet.add(new ATag(tagcontent, workflow ));
+            }
+            workflow.setTags(tagSet);
+            // set links
+            Set<ALink> linkSet = new HashSet<ALink>();
+            for (int i = 0; i < links.size(); i++) {
+                JsonNode link = links.get(i);
+                String linkcontent=link.path("content").asText();
+                linkSet.add(new ALink(linkcontent, workflow ));
+            }
+            workflow.setLinks(linkSet);
+            // set instruments
+            Set<AInstrument> AInstrumentSet = new HashSet<AInstrument>();
+            for (int i = 0; i < instruments.size(); i++) {
+                JsonNode instrument = instruments.get(i);
+                String instrumentname=instrument.path("name").asText();
+                String instrumentcontent=instrument.path("content").asText();
+                AInstrumentSet.add(new AInstrument(instrumentname, instrumentcontent, workflow ));
+            }
+            workflow.setInstruments(AInstrumentSet);
+            // set associatedDatasets
+            Set<ADataset> DataSet = new HashSet<ADataset>();
+            for (int i = 0; i < associatedDatasets.size(); i++) {
+                JsonNode dataset = associatedDatasets.get(i);
+                String datasetname=dataset.path("name").asText();
+                String datasetcontent=dataset.path("content").asText();
+                DataSet.add(new ADataset(datasetname, datasetcontent, workflow ));
+            }
+            workflow.setAssociatedDatasets(DataSet);
+            // set associateWorkflow
+            Set<AAssociateWorkflow> associateWorkflowsSet = new HashSet<AAssociateWorkflow>();
+            for (int i = 0; i < associateWorkflow.size(); i++) {
+                JsonNode aworkfl = associateWorkflow.get(i);
+                String datasetname=aworkfl.path("name").asText();
+                associateWorkflowsSet.add(new AAssociateWorkflow(datasetname, workflow ));
+            }
+            workflow.setAssociateWorkflow(associateWorkflowsSet);
             aWorkflowRepository.save(workflow);
-            System.out.println("Page saved: " + workflow.toString());
-            return created(new Gson().toJson(workflow.toString()));
+            System.out.println("workflow successfully received");
+            return ok("workflow successfully received");
         } catch (PersistenceException pe) {
             pe.printStackTrace();
             System.out.println("Page not saved: " + name);
@@ -132,10 +212,70 @@ public class AWrokflowController extends Controller {
             }
             String tasks = "";
 
+            JsonObject jsonObject = new JsonObject();
+
+            jsonObject.addProperty("name", aWorkflow.getName());
+            jsonObject.addProperty("description", aWorkflow.getDescription());
+            jsonObject.addProperty("previewImage", aWorkflow.getPreviewImage());
+
+            // get task
+            JsonArray jsonArrayATask = new JsonArray();
             for (ATask task : aWorkflow.getTasks()) {
+                jsonArrayATask.add(task.toJson());
                 tasks += task.getName() + " "+task.getContent()+"......";
             }
-            return created(new Gson().toJson(tasks));
+            jsonObject.add("tasks", jsonArrayATask);
+            // get input
+            JsonArray jsonArrayAInput = new JsonArray();
+            for (AInput input : aWorkflow.getInputs()) {
+                jsonArrayAInput.add(input.toJson());
+            }
+            jsonObject.add("inputs", jsonArrayAInput);
+            // get output
+            JsonArray jsonArrayAOutput = new JsonArray();
+            for (AOutput output : aWorkflow.getOutputs()) {
+                jsonArrayAOutput.add(output.toJson());
+            }
+            jsonObject.add("output", jsonArrayAOutput);
+            // get contributors
+            JsonArray jsonArrayAUser = new JsonArray();
+            for (AUser user : aWorkflow.getContributors()) {
+                jsonArrayAUser.add(user.toJson());
+            }
+            jsonObject.add("contributors", jsonArrayAUser);
+            // get tags
+            JsonArray jsonArrayATag = new JsonArray();
+            for (ATag tag : aWorkflow.getTags()) {
+                jsonArrayATag.add(tag.toJson());
+            }
+            jsonObject.add("tags", jsonArrayATag);
+            // get links
+            JsonArray jsonArrayALink = new JsonArray();
+            for (ALink link : aWorkflow.getLinks()) {
+                jsonArrayALink.add(link.toJson());
+            }
+            jsonObject.add("links", jsonArrayALink);
+            // get instruments
+            JsonArray jsonArrayAInstrument = new JsonArray();
+            for (AInstrument instrument : aWorkflow.getInstruments()) {
+                jsonArrayAInstrument.add(instrument.toJson());
+            }
+            jsonObject.add("instruments", jsonArrayAInstrument);
+            // get associatedDatasets
+            JsonArray jsonArrayADataset = new JsonArray();
+            for (ADataset dataset : aWorkflow.getAssociatedDatasets()) {
+                jsonArrayADataset.add(dataset.toJson());
+            }
+            jsonObject.add("associatedDatasets", jsonArrayADataset);
+            // get associateWorkflow
+            JsonArray jsonArrayAAssociateWorkflow = new JsonArray();
+            for (AAssociateWorkflow associateWorkflow : aWorkflow.getAssociateWorkflow()) {
+                jsonArrayAAssociateWorkflow.add(associateWorkflow.toJson());
+            }
+            jsonObject.add("associateWorkflow", jsonArrayAAssociateWorkflow);
+
+
+            return created(jsonObject.toString());
         } catch (PersistenceException pe) {
             pe.printStackTrace();
             System.out.println("getAtest: " + name);

@@ -1,5 +1,8 @@
 package models;
 
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+
 import javax.persistence.*;
 
 /**
@@ -56,4 +59,13 @@ public class ATask {
     public void setaWorkflow(AWorkflow aWorkflow) {
         this.aWorkflow = aWorkflow;
     }
+
+    public JsonObject toJson() {
+        JsonObject jsonObject = new JsonObject();
+        jsonObject.addProperty("name", this.name);
+        jsonObject.addProperty("content", this.content);
+        return jsonObject;
+
+    }
+
 }

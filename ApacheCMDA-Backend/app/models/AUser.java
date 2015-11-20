@@ -16,6 +16,8 @@
  */
 package models;
 
+import com.google.gson.JsonObject;
+
 import javax.persistence.*;
 
 @Entity
@@ -49,7 +51,7 @@ public class AUser {
 				 String lastName, String middleInitial, String affiliation,
 				 String title, String email, String mailingAddress,
 				 String phoneNumber, String faxNumber, String researchFields,
-				 String highestDegree) {
+				 String highestDegree, AWorkflow aWorkflow) {
 		super();
 		this.userName = userName;
 		this.password = password;
@@ -64,6 +66,7 @@ public class AUser {
 		this.faxNumber = faxNumber;
 		this.researchFields = researchFields;
 		this.highestDegree = highestDegree;
+		this.aWorkflow = aWorkflow;
 	}
 
 	public long getId() {
@@ -192,6 +195,24 @@ public class AUser {
 				+ ", phoneNumber=" + phoneNumber + ", faxNumber=" + faxNumber
 				+ ", researchFields=" + researchFields + ", highestDegree="
 				+ highestDegree + "]";
+	}
+
+	public JsonObject toJson() {
+		JsonObject jsonObject = new JsonObject();
+		jsonObject.addProperty("userName", this.userName);
+		jsonObject.addProperty("firstName", this.firstName);
+		jsonObject.addProperty("lastName", this.lastName);
+		jsonObject.addProperty("middleInitial", this.middleInitial);
+		jsonObject.addProperty("affiliation", this.affiliation);
+		jsonObject.addProperty("title", this.title);
+		jsonObject.addProperty("email", this.email);
+		jsonObject.addProperty("mailingAddress", this.mailingAddress);
+		jsonObject.addProperty("phoneNumber", this.phoneNumber);
+		jsonObject.addProperty("faxNumber", this.faxNumber);
+		jsonObject.addProperty("researchFields", this.researchFields);
+		jsonObject.addProperty("highestDegree", this.highestDegree);
+		return jsonObject;
+
 	}
 
 }
