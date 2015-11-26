@@ -1,6 +1,6 @@
 // @SOURCE:/home/SOC-Fall-2015/ApacheCMDA-Backend/conf/routes
-// @HASH:cf15523e002cb18844e1058fe2b678145ce52482
-// @DATE:Fri Nov 20 19:55:28 UTC 2015
+// @HASH:8e014a199f01ff4af64245b08d89291238e50346
+// @DATE:Fri Nov 20 22:44:07 UTC 2015
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -15,7 +15,10 @@ import _root_.play.libs.F
 import Router.queryString
 
 
-// @LINE:75
+// @LINE:80
+// @LINE:77
+// @LINE:76
+// @LINE:73
 // @LINE:72
 // @LINE:71
 // @LINE:68
@@ -66,11 +69,11 @@ import Router.queryString
 // @LINE:10
 package controllers {
 
-// @LINE:75
+// @LINE:80
 class ReverseAssets {
 
 
-// @LINE:75
+// @LINE:80
 def at(file:String): Call = {
    implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
@@ -80,19 +83,19 @@ def at(file:String): Call = {
 }
                           
 
-// @LINE:72
-// @LINE:71
+// @LINE:77
+// @LINE:76
 class ReverseAWrokflowController {
 
 
-// @LINE:72
+// @LINE:77
 def getWorkflow(name:String): Call = {
    import ReverseRouteContext.empty
    Call("GET", _prefix + { _defaultPrefix } + "workflow/get/" + implicitly[PathBindable[String]].unbind("name", dynamicString(name)))
 }
                         
 
-// @LINE:71
+// @LINE:76
 def addWorkflow(): Call = {
    import ReverseRouteContext.empty
    Call("POST", _prefix + { _defaultPrefix } + "workflow/add")
@@ -142,6 +145,36 @@ def updateInstrumentById(id:Long): Call = {
 def deleteInstrument(id:Long): Call = {
    import ReverseRouteContext.empty
    Call("DELETE", _prefix + { _defaultPrefix } + "instrument/deleteInstrument/id/" + implicitly[PathBindable[Long]].unbind("id", id))
+}
+                        
+
+}
+                          
+
+// @LINE:73
+// @LINE:72
+// @LINE:71
+class ReverseAGroupController {
+
+
+// @LINE:71
+def addUser(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "group/adduser")
+}
+                        
+
+// @LINE:73
+def getGroup(groupname:String): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "group/get/" + implicitly[PathBindable[String]].unbind("groupname", dynamicString(groupname)))
+}
+                        
+
+// @LINE:72
+def createGroup(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "group/create")
 }
                         
 
@@ -527,7 +560,10 @@ def updateTag(): Call = {
                   
 
 
-// @LINE:75
+// @LINE:80
+// @LINE:77
+// @LINE:76
+// @LINE:73
 // @LINE:72
 // @LINE:71
 // @LINE:68
@@ -579,11 +615,11 @@ def updateTag(): Call = {
 package controllers.javascript {
 import ReverseRouteContext.empty
 
-// @LINE:75
+// @LINE:80
 class ReverseAssets {
 
 
-// @LINE:75
+// @LINE:80
 def at : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.at",
    """
@@ -597,12 +633,12 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
-// @LINE:72
-// @LINE:71
+// @LINE:77
+// @LINE:76
 class ReverseAWrokflowController {
 
 
-// @LINE:72
+// @LINE:77
 def getWorkflow : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.AWrokflowController.getWorkflow",
    """
@@ -613,7 +649,7 @@ def getWorkflow : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:71
+// @LINE:76
 def addWorkflow : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.AWrokflowController.addWorkflow",
    """
@@ -685,6 +721,48 @@ def deleteInstrument : JavascriptReverseRoute = JavascriptReverseRoute(
    """
       function(id) {
       return _wA({method:"DELETE", url:"""" + _prefix + { _defaultPrefix } + """" + "instrument/deleteInstrument/id/" + (""" + implicitly[PathBindable[Long]].javascriptUnbind + """)("id", id)})
+      }
+   """
+)
+                        
+
+}
+              
+
+// @LINE:73
+// @LINE:72
+// @LINE:71
+class ReverseAGroupController {
+
+
+// @LINE:71
+def addUser : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.AGroupController.addUser",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "group/adduser"})
+      }
+   """
+)
+                        
+
+// @LINE:73
+def getGroup : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.AGroupController.getGroup",
+   """
+      function(groupname) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "group/get/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("groupname", encodeURIComponent(groupname))})
+      }
+   """
+)
+                        
+
+// @LINE:72
+def createGroup : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.AGroupController.createGroup",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "group/create"})
       }
    """
 )
@@ -1236,7 +1314,10 @@ def updateTag : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
-// @LINE:75
+// @LINE:80
+// @LINE:77
+// @LINE:76
+// @LINE:73
 // @LINE:72
 // @LINE:71
 // @LINE:68
@@ -1288,11 +1369,11 @@ def updateTag : JavascriptReverseRoute = JavascriptReverseRoute(
 package controllers.ref {
 
 
-// @LINE:75
+// @LINE:80
 class ReverseAssets {
 
 
-// @LINE:75
+// @LINE:80
 def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.at(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )
@@ -1301,18 +1382,18 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 }
                           
 
-// @LINE:72
-// @LINE:71
+// @LINE:77
+// @LINE:76
 class ReverseAWrokflowController {
 
 
-// @LINE:72
+// @LINE:77
 def getWorkflow(name:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AWrokflowController]).getWorkflow(name), HandlerDef(this.getClass.getClassLoader, "", "controllers.AWrokflowController", "getWorkflow", Seq(classOf[String]), "GET", """""", _prefix + """workflow/get/$name<[^/]+>""")
 )
                       
 
-// @LINE:71
+// @LINE:76
 def addWorkflow(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AWrokflowController]).addWorkflow(), HandlerDef(this.getClass.getClassLoader, "", "controllers.AWrokflowController", "addWorkflow", Seq(), "POST", """Aworkflow""", _prefix + """workflow/add""")
 )
@@ -1356,6 +1437,33 @@ def updateInstrumentById(id:Long): play.api.mvc.HandlerRef[_] = new play.api.mvc
 // @LINE:29
 def deleteInstrument(id:Long): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.InstrumentController]).deleteInstrument(id), HandlerDef(this.getClass.getClassLoader, "", "controllers.InstrumentController", "deleteInstrument", Seq(classOf[Long]), "DELETE", """""", _prefix + """instrument/deleteInstrument/id/$id<[^/]+>""")
+)
+                      
+
+}
+                          
+
+// @LINE:73
+// @LINE:72
+// @LINE:71
+class ReverseAGroupController {
+
+
+// @LINE:71
+def addUser(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AGroupController]).addUser(), HandlerDef(this.getClass.getClassLoader, "", "controllers.AGroupController", "addUser", Seq(), "POST", """ AGroup""", _prefix + """group/adduser""")
+)
+                      
+
+// @LINE:73
+def getGroup(groupname:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AGroupController]).getGroup(groupname), HandlerDef(this.getClass.getClassLoader, "", "controllers.AGroupController", "getGroup", Seq(classOf[String]), "GET", """""", _prefix + """group/get/$groupname<[^/]+>""")
+)
+                      
+
+// @LINE:72
+def createGroup(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   play.api.Play.maybeApplication.map(_.global).getOrElse(play.api.DefaultGlobal).getControllerInstance(classOf[controllers.AGroupController]).createGroup(), HandlerDef(this.getClass.getClassLoader, "", "controllers.AGroupController", "createGroup", Seq(), "POST", """""", _prefix + """group/create""")
 )
                       
 

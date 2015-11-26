@@ -2,6 +2,7 @@ package controllers;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import models.*;
 import play.mvc.Controller;
@@ -37,12 +38,19 @@ public class AUserController extends Controller {
 // Parse JSON file
         String email = json.path("email").asText();
         String password = json.path("password").asText();
+//        System.out.println("email received: " + email);
+//        System.out.println("password received: " + password);
         AUser user = null;
         try {
             if ((user = aUserRepository.findByEmail(email)) != null) {
-                if (user.getPassword().equals(password))
+                if (user.getPassword().equals(password)) {
                     System.out.println("login successful");
-                return ok("login successful");
+                    return ok("login successful");
+                } else {
+                    System.out.println("login failed, password does not match");
+                    return badRequest("login failed, password does not match");
+                }
+
             } else {
                 System.out.println("login failed, password does not match");
                 return badRequest("login failed, password does not match");
@@ -79,7 +87,7 @@ public class AUserController extends Controller {
         String faxNumber= user.path("faxNumber").asText();
         String researchFields= user.path("researchFields").asText();
         String highestDegree= user.path("highestDegree").asText();
-        AUser aUser = new AUser(userName, password,firstName, lastName, middleInitial, affiliation, title, email, mailingAddress, phoneNumber, faxNumber, researchFields, highestDegree, null );
+        AUser aUser = new AUser(userName, password,firstName, lastName, middleInitial, affiliation, title, email, mailingAddress, phoneNumber, faxNumber, researchFields, highestDegree, null, null );
         aUserRepository.save(aUser);
         return ok("register successful");
     }
@@ -93,7 +101,9 @@ public class AUserController extends Controller {
         }
         JsonObject jsonObject = aUser.toJson();
         AWorkflow aWorkflow = aUser.getaWorkflow();
-        jsonObject.add("workflows", aWorkflow.toJson());
+        JsonArray jsonArray = new JsonArray();
+        jsonArray.add(aWorkflow.toJson());
+        jsonObject.add("workflows", jsonArray);
         return created(jsonObject.toString());
     }
 

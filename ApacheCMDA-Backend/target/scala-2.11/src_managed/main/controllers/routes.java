@@ -1,6 +1,6 @@
 // @SOURCE:/home/SOC-Fall-2015/ApacheCMDA-Backend/conf/routes
-// @HASH:cf15523e002cb18844e1058fe2b678145ce52482
-// @DATE:Fri Nov 20 19:55:28 UTC 2015
+// @HASH:8e014a199f01ff4af64245b08d89291238e50346
+// @DATE:Fri Nov 20 22:44:07 UTC 2015
 
 package controllers;
 
@@ -8,6 +8,7 @@ public class routes {
 public static final controllers.ReverseAssets Assets = new controllers.ReverseAssets();
 public static final controllers.ReverseAWrokflowController AWrokflowController = new controllers.ReverseAWrokflowController();
 public static final controllers.ReverseInstrumentController InstrumentController = new controllers.ReverseInstrumentController();
+public static final controllers.ReverseAGroupController AGroupController = new controllers.ReverseAGroupController();
 public static final controllers.ReverseBtestController BtestController = new controllers.ReverseBtestController();
 public static final controllers.ReverseUserController UserController = new controllers.ReverseUserController();
 public static final controllers.ReverseATaskController ATaskController = new controllers.ReverseATaskController();
@@ -21,6 +22,7 @@ public static class javascript {
 public static final controllers.javascript.ReverseAssets Assets = new controllers.javascript.ReverseAssets();
 public static final controllers.javascript.ReverseAWrokflowController AWrokflowController = new controllers.javascript.ReverseAWrokflowController();
 public static final controllers.javascript.ReverseInstrumentController InstrumentController = new controllers.javascript.ReverseInstrumentController();
+public static final controllers.javascript.ReverseAGroupController AGroupController = new controllers.javascript.ReverseAGroupController();
 public static final controllers.javascript.ReverseBtestController BtestController = new controllers.javascript.ReverseBtestController();
 public static final controllers.javascript.ReverseUserController UserController = new controllers.javascript.ReverseUserController();
 public static final controllers.javascript.ReverseATaskController ATaskController = new controllers.javascript.ReverseATaskController();
@@ -36,6 +38,7 @@ public static class ref {
 public static final controllers.ref.ReverseAssets Assets = new controllers.ref.ReverseAssets();
 public static final controllers.ref.ReverseAWrokflowController AWrokflowController = new controllers.ref.ReverseAWrokflowController();
 public static final controllers.ref.ReverseInstrumentController InstrumentController = new controllers.ref.ReverseInstrumentController();
+public static final controllers.ref.ReverseAGroupController AGroupController = new controllers.ref.ReverseAGroupController();
 public static final controllers.ref.ReverseBtestController BtestController = new controllers.ref.ReverseBtestController();
 public static final controllers.ref.ReverseUserController UserController = new controllers.ref.ReverseUserController();
 public static final controllers.ref.ReverseATaskController ATaskController = new controllers.ref.ReverseATaskController();

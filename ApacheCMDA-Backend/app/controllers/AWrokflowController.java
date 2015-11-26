@@ -116,7 +116,7 @@ public class AWrokflowController extends Controller {
                     System.out.println("cannot find contributor's userName: " + userName);
                     return badRequest("cannot find contributor's userName: " + userName);
                 } else {
-                    aUser = new AUser(userName, tempuser.getPassword(),tempuser.getFirstName(), tempuser.getLastName(), tempuser.getMiddleInitial(), tempuser.getAffiliation(), tempuser.getTitle(), tempuser.getEmail(), tempuser.getMailingAddress(), tempuser.getPhoneNumber(), tempuser.getFaxNumber(), tempuser.getResearchFields(), tempuser.getHighestDegree(), workflow );
+                    aUser = new AUser(userName, tempuser.getPassword(),tempuser.getFirstName(), tempuser.getLastName(), tempuser.getMiddleInitial(), tempuser.getAffiliation(), tempuser.getTitle(), tempuser.getEmail(), tempuser.getMailingAddress(), tempuser.getPhoneNumber(), tempuser.getFaxNumber(), tempuser.getResearchFields(), tempuser.getHighestDegree(), workflow , null);
                     userSet.add(aUser);
                     aUserRepository.delete(tempuser);
                 }

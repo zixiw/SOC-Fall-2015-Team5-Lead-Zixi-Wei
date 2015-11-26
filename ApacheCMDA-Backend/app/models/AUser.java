@@ -42,6 +42,9 @@ public class AUser {
 	@ManyToOne
 	@JoinColumn(name = "aworkflow_id", referencedColumnName = "id")
 	private AWorkflow aWorkflow;
+	@ManyToOne
+	@JoinColumn(name = "agroup_id", referencedColumnName = "id")
+	private AGroup aGroup;
 
 
 	public AUser() {
@@ -51,7 +54,7 @@ public class AUser {
 				 String lastName, String middleInitial, String affiliation,
 				 String title, String email, String mailingAddress,
 				 String phoneNumber, String faxNumber, String researchFields,
-				 String highestDegree, AWorkflow aWorkflow) {
+				 String highestDegree, AWorkflow aWorkflow, AGroup aGroup) {
 		super();
 		this.userName = userName;
 		this.password = password;
@@ -67,6 +70,7 @@ public class AUser {
 		this.researchFields = researchFields;
 		this.highestDegree = highestDegree;
 		this.aWorkflow = aWorkflow;
+		this.aGroup = aGroup;
 	}
 
 	public long getId() {
@@ -185,6 +189,14 @@ public class AUser {
 		this.aWorkflow = aWorkflow;
 	}
 
+	public AGroup getaGroup() {
+		return aGroup;
+	}
+
+	public void setaGroup(AGroup aGroup) {
+		this.aGroup = aGroup;
+	}
+
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", userName=" + userName + ", password="
@@ -213,6 +225,7 @@ public class AUser {
 		jsonObject.addProperty("highestDegree", this.highestDegree);
 		return jsonObject;
 	}
+
 
 }
 

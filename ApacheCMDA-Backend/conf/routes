@@ -67,6 +67,11 @@ POST          /home/login                                                       
 POST          /home/register                                                                @controllers.AUserController.register
 GET           /user/get/:email                                                              @controllers.AUserController.getUser(email: String)
 
+# AGroup
+POST          /group/adduser                                                                @controllers.AGroupController.addUser
+POST          /group/create                                                                 @controllers.AGroupController.createGroup
+GET           /group/get/:groupname                                                         @controllers.AGroupController.getGroup(groupname: String)
+
 #Aworkflow
 POST          /workflow/add                                                                 @controllers.AWrokflowController.addWorkflow
 GET           /workflow/get/:name                                                           @controllers.AWrokflowController.getWorkflow(name: String)
