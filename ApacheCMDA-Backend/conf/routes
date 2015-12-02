@@ -1,0 +1,177 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page - we use the @controllers syntax here so that the router knows we are referring to a class. In turn it
+# will call on the GlobalSettings.getController method to resolve the actual controller instance.
+# GET     /                           @controllers.Application.index
+
+# Climate Service
+GET           /climateService/getClimateService/:name/json                                              @controllers.ClimateServiceController.getClimateService(name: String, format: String="json")
+GET           /climateService/getClimateService/id/:id                                                  @controllers.ClimateServiceController.getClimateServiceById(id: Long)
+GET           /climateService/getAllClimateServices/json                                                @controllers.ClimateServiceController.getAllClimateServices(format: String="json")
+GET           /climateService/getAllMostRecentClimateServicesByCreateTime/json                          @controllers.ClimateServiceController.getAllClimateServicesOrderByCreateTime(format: String="json")
+GET           /climateService/getAllMostRecentClimateServicesByLatestAccessTime/json                    @controllers.ClimateServiceController.getAllClimateServicesOrderByLatestAccessTime(format: String="json")
+GET           /climateService/getAllMostUsedClimateServices/json                                        @controllers.ClimateServiceController.getAllClimateServicesOrderByCount(format: String="json")
+POST          /climateService/addClimateService                                                         @controllers.ClimateServiceController.addClimateService
+GET           /climateService/getAllServiceEntries/json                                                 @controllers.ClimateServiceController.getAllServiceEntries(format: String="json")
+POST          /climateService/addServiceEntry                                                           @controllers.ClimateServiceController.addServiceEntry
+PUT           /climateService/updateClimateService/id/:id                                               @controllers.ClimateServiceController.updateClimateServiceById(id: Long)
+PUT           /climateService/updateClimateService/name/:oldName                                        @controllers.ClimateServiceController.updateClimateServiceByName(oldName: String)
+DELETE        /climateService/deleteClimateService/id/:id                                               @controllers.ClimateServiceController.deleteClimateServiceById(id: Long)
+DELETE        /climateService/deleteClimateService/name/:name                                           @controllers.ClimateServiceController.deleteClimateServiceByName(name: String)
+
+# Instrument
+GET           /instrument/getAllInstruments/json                                                        @controllers.InstrumentController.getAllInstruments(format: String="json")
+GET           /instrument/getInstrument/id/:id/json                                                     @controllers.InstrumentController.getInstrument(id: Long, format: String="json")
+POST          /instrument/addInstrument                                                                 @controllers.InstrumentController.addInstrument
+PUT           /instrument/updateInstrument/id/:id                                                       @controllers.InstrumentController.updateInstrumentById(id: Long)
+DELETE        /instrument/deleteInstrument/id/:id                                                       @controllers.InstrumentController.deleteInstrument(id: Long)
+
+# Dataset
+GET           /dataset/getAllDatasets/json                                                              @controllers.DatasetController.getAllDatasets(format: String="json")
+GET           /dataset/getDataset/id/:id/json                                                           @controllers.DatasetController.getDataset(id: Long, format: String="json")
+POST          /dataset/addDataset                                                                       @controllers.DatasetController.addDataset
+PUT           /dataset/updateDataset/id/:id                                                             @controllers.DatasetController.updateDatasetById(id: Long)
+DELETE        /dataset/deleteDataset/id/:id                                                             @controllers.DatasetController.deleteDataset(id: Long)
+POST		  /dataset/queryDataset																		@controllers.DatasetController.queryDatasets
+
+# Parameter
+GET           /parameter/getAllParameters/json                                                          @controllers.ParameterController.getAllParameters(format: String="json")
+GET           /parameter/getParameter/service/:id/name/:name/json                                       @controllers.ParameterController.getParameterByName(id:Long, name: String, format: String="json")
+GET           /parameter/getParameter/id/:id/json                                                       @controllers.ParameterController.getParameterById(id: Long, format: String="json")
+POST          /parameter/addParameter                                                                   @controllers.ParameterController.addParameter
+PUT           /parameter/updateParameter/id/:id                                                         @controllers.ParameterController.updateParameterById(id: Long)
+PUT           /parameter/updateParameter/name/:oldName                                                  @controllers.ParameterController.updateParameterByName(oldName: String)
+DELETE        /parameter/deleteParameter/service/:id/name/:name                                         @controllers.ParameterController.deleteParameterByName(id:Long, name: String)
+
+# Users
+GET           /users/:id                                                                                @controllers.UserController.getUser(id: Long, format: String="json")
+POST          /users/add                                                                                @controllers.UserController.addUser
+PUT           /users/update/:id                                                                         @controllers.UserController.updateUser(id: Long)
+DELETE        /users/delete/:id                                                                         @controllers.UserController.deleteUser(id: Long)
+GET			  /users/getAllUsers/json																	@controllers.UserController.getAllUsers(format: String="json")
+POST		  /users/isUserValid																		@controllers.UserController.isUserValid
+POST		  /users/isEmailExisted																		@controllers.UserController.isEmailExisted
+DELETE		  /users/delete/userName/:userName/password/:password										@controllers.UserController.deleteUserByUserNameandPassword(userName: String, password: String)
+
+# Map static resources from the /public folder to the /assets URL path
+GET           /assets/*file                                                                             controllers.Assets.at(path="/public", file)
+
+# Newly Added
+
+# User
+POST          /user/addUser                                                                             @controllers.NewUserController.addUser
+POST          /user/login                                                                               @controllers.NewUserController.login
+POST          /user/addContributorToWorkflow                                                            @controllers.NewUserController.addContributorToWorkflow
+POST          /user/addUserToGroupAsAdmin                                                               @controllers.NewUserController.addUserToGroupAsAdmin
+POST          /user/addUserToGroupAsMember                                                              @controllers.NewUserController.addUserToGroupAsMember
+POST          /user/addFriendToUser                                                                     @controllers.NewUserController.addFriendToUser
+POST          /user/addSubscribeUserToUser                                                              @controllers.NewUserController.addSubscribeUserToUser
+POST          /user/addSubscribeGroupToUser                                                             @controllers.NewUserController.addSubscribeGroupToUser
+POST          /user/addSubscribeWorkflowToUser                                                          @controllers.NewUserController.addSubscribeWorkflowToUser
+POST          /user/deleteUser                                                                          @controllers.NewUserController.deleteUser
+POST          /user/deleteUserByUserNameAndPassword                                                     @controllers.NewUserController.deleteUserByUserNameAndPassword
+POST          /user/deleteContributorFromWorkflow                                                       @controllers.NewUserController.deleteContributorFromWorkflow
+POST          /user/deleteUserFromGroup                                                                 @controllers.NewUserController.deleteUserFromGroup
+POST          /user/deleteFriendFromUser                                                                @controllers.NewUserController.deleteFriendFromUser
+POST          /user/deleteSubscribeUserFromUser                                                         @controllers.NewUserController.deleteSubscribeUserFromUser
+POST          /user/deleteSubscribeGroupFromUser                                                        @controllers.NewUserController.deleteSubscribeGroupFromUser
+POST          /user/deleteSubscribeWorkflowFromUser                                                     @controllers.NewUserController.deleteSubscribeWorkflowFromUser
+POST          /user/updateUser                                                                          @controllers.NewUserController.updateUser
+POST          /user/getUser                                                                             @controllers.NewUserController.getUser
+POST          /user/getUserIdByUserName                                                                 @controllers.NewUserController.getUserIdByUserName
+POST          /user/getUserIdByEmail                                                                    @controllers.NewUserController.getUserIdByEmail
+POST          /user/getAllUsers                                                                         @controllers.NewUserController.getAllUsers
+POST          /user/getSubscribersNumber                                                                @controllers.NewUserController.getSubscribersNumber
+POST          /user/getCollaboratorsNumber                                                              @controllers.NewUserController.getCollaboratorsNumber
+
+#Workflow
+POST          /workflow/addWorkflow                                                                     @controllers.NewWorkflowController.addWorkflow
+POST          /workflow/addAttributeWorkflowToWorkflow                                                  @controllers.NewWorkflowController.addAttributeWorkflowToWorkflow
+POST          /workflow/deleteWorkflow                                                                  @controllers.NewWorkflowController.deleteWorkflow
+POST          /workflow/deleteWorkflowByName                                                            @controllers.NewWorkflowController.deleteWorkflowByName
+POST          /workflow/deleteAttributeWorkflowFromWorkflow                                             @controllers.NewWorkflowController.deleteAttributeWorkflowFromWorkflow
+POST          /workflow/updateWorkflow                                                                  @controllers.NewWorkflowController.updateWorkflow
+POST          /workflow/getWorkflow                                                                     @controllers.NewWorkflowController.getWorkflow
+POST          /workflow/getWorkflowIdByName                                                             @controllers.NewWorkflowController.getWorkflowIdByName
+POST          /workflow/getAllWorkflows                                                                 @controllers.NewWorkflowController.getAllWorkflows
+POST          /workflow/getWorkflowPopularity                                                           @controllers.NewWorkflowController.getWorkflowPopularity
+
+POST          /workflow/addTagToWorkflow                                                                @controllers.NewWorkflowController.addTagToWorkflow
+POST          /workflow/deleteTagFromWorkflow                                                           @controllers.NewWorkflowController.deleteTagFromWorkflow
+
+#Task
+POST          /task/addTask                                                                             @controllers.NewTaskController.addTask
+POST          /task/addTaskToWorkflow                                                                   @controllers.NewTaskController.addTaskToWorkflow
+POST          /task/deleteTask                                                                          @controllers.NewTaskController.deleteTask
+POST          /task/updateTask                                                                          @controllers.NewTaskController.updateTask
+POST          /task/getTask                                                                             @controllers.NewTaskController.getTask
+
+#Input
+POST          /input/addInput                                                                           @controllers.NewInputController.addInput
+POST          /input/addInputToWorkflow                                                                 @controllers.NewInputController.addInputToWorkflow
+POST          /input/deleteInput                                                                        @controllers.NewInputController.deleteInput
+POST          /input/updateInput                                                                        @controllers.NewInputController.updateInput
+POST          /input/getInput                                                                           @controllers.NewInputController.getInput
+
+#Output
+POST          /output/addOutput                                                                         @controllers.NewOutputController.addOutput
+POST          /output/addOutputToWorkflow                                                               @controllers.NewOutputController.addOutputToWorkflow
+POST          /output/deleteOutput                                                                      @controllers.NewOutputController.deleteOutput
+POST          /output/updateOutput                                                                      @controllers.NewOutputController.updateOutput
+POST          /output/getOutput                                                                         @controllers.NewOutputController.getOutput
+
+#Instruction
+POST          /instruction/addInstruction                                                               @controllers.NewInstructionController.addInstruction
+POST          /instruction/addInstructionToWorkflow                                                     @controllers.NewInstructionController.addInstructionToWorkflow
+POST          /instruction/deleteInstruction                                                            @controllers.NewInstructionController.deleteInstruction
+POST          /instruction/updateInstruction                                                            @controllers.NewInstructionController.updateInstruction
+POST          /instruction/getInstruction                                                               @controllers.NewInstructionController.getInstruction
+
+#Dataset
+POST          /datasetV2/addDataset                                                                     @controllers.NewDatasetController.addDataset
+POST          /datasetV2/addDatasetToWorkflow                                                           @controllers.NewDatasetController.addDatasetToWorkflow
+POST          /datasetV2/deleteDataset                                                                  @controllers.NewDatasetController.deleteDataset
+POST          /datasetV2/updateDataset                                                                  @controllers.NewDatasetController.updateDataset
+POST          /datasetV2/getDataset                                                                     @controllers.NewDatasetController.getDataset
+
+#Link
+POST          /link/addLink                                                                             @controllers.NewLinkController.addLink
+POST          /link/addLinkToWorkflow                                                                   @controllers.NewLinkController.addLinkToWorkflow
+POST          /link/deleteLink                                                                          @controllers.NewLinkController.deleteLink
+POST          /link/updateLink                                                                          @controllers.NewLinkController.updateLink
+POST          /link/getLink                                                                             @controllers.NewLinkController.getLink
+
+#Group
+POST          /group/addGroup                                                                           @controllers.NewGroupController.addGroup
+POST          /group/deleteGroup                                                                        @controllers.NewGroupController.deleteGroup
+POST          /group/updateGroup                                                                        @controllers.NewGroupController.updateGroup
+POST          /group/getGroup                                                                           @controllers.NewGroupController.getGroup
+POST          /group/getGroupIdByName                                                                   @controllers.NewGroupController.getGroupIdByName
+POST          /group/getAllGroups                                                                       @controllers.NewGroupController.getAllGroups
+
+#Tag
+POST          /tag/addTag                                                                               @controllers.NewTagController.addTag
+POST          /tag/deleteTag                                                                            @controllers.NewTagController.deleteTag
+POST          /tag/updateTag                                                                            @controllers.NewTagController.updateTag
+POST          /tag/getTag                                                                               @controllers.NewTagController.getTag
+POST          /tag/getTagIdByName                                                                       @controllers.NewTagController.getTagIdByName
+POST          /tag/getAllTags                                                                           @controllers.NewTagController.getAllTags
+
+#Post
+POST          /post/addPost                                                                             @controllers.NewPostController.addPost
+POST          /post/addPostToUser                                                                       @controllers.NewPostController.addPostToUser
+POST          /post/addTagToPost                                                                        @controllers.NewPostController.addTagToPost
+POST          /post/deletePost                                                                          @controllers.NewPostController.deletePost
+POST          /post/deleteTagFromPost                                                                   @controllers.NewPostController.deleteTagFromPost
+POST          /post/updatePost                                                                          @controllers.NewPostController.updatePost
+POST          /post/getPost                                                                             @controllers.NewPostController.getPost
+POST          /post/getPostsUnderDomainAndDomainName                                                    @controllers.NewPostController.getPostsUnderDomainAndDomainName
+
+#Reply
+POST          /reply/addReply                                                                           @controllers.NewReplyController.addReply
+POST          /reply/addReplyToPost                                                                     @controllers.NewReplyController.addReplyToPost
+POST          /reply/deleteReply                                                                        @controllers.NewReplyController.deleteReply
+POST          /reply/updateReply                                                                        @controllers.NewReplyController.updateReply
+POST          /reply/getReply                                                                           @controllers.NewReplyController.getReply

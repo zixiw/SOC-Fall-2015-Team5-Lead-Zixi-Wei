@@ -1,0 +1,248 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set(/Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ClimateServiceTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/models/ClimateServiceTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/PublicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/UserTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/InstrumentTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BugReportTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookPublicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceEntryTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/DatasetEntryTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationItemTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ConferencePublicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/WorkflowTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/DatasetTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceExecutionLogTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ApplicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/IntegrationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/JournalPublicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/DatasetLogTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ParameterTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookChapterPublicationTest.java)
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ClimateServiceTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/models/ClimateServiceTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/PublicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/UserTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/InstrumentTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BugReportTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookPublicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceEntryTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/DatasetEntryTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationItemTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ConferencePublicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/WorkflowTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/DatasetTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceExecutionLogTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ApplicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/IntegrationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/JournalPublicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/DatasetLogTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ParameterTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookChapterPublicationTest.java)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ClimateServiceTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/models/ClimateServiceTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/PublicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/UserTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/InstrumentTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BugReportTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookPublicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceEntryTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/DatasetEntryTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationItemTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ConferencePublicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/WorkflowTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/DatasetTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceExecutionLogTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ApplicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/IntegrationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/JournalPublicationTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/DatasetLogTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ParameterTest.java, /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookChapterPublicationTest.java)
+[debug] Recompiling all 21 sources: invalidated sources (21) exceeded 50.0% of all sources
+[info] Compiling 21 Java sources to /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/target/scala-2.11/test-classes...
+[debug] Attempting to call javac directly...
+[debug] com.sun.tools.javac.Main not found with appropriate method signature; forking javac instead
+[debug] Forking javac: javac @/var/folders/xz/zhqtlr5x0mq0qfhn45k5xmvm0000gn/T/sbt_f29c8740/argfile
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookChapterPublicationTest.java:18: error: cannot find symbol
+[error] 	private BookChapterPublication bookChapterPublication;
+[error] 	        ^
+[error]   symbol:   class BookChapterPublication
+[error]   location: class BookChapterPublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookChapterPublicationTest.java:19: error: cannot find symbol
+[error] 	private BookChapterPublication bookChapterPublication1;
+[error] 	        ^
+[error]   symbol:   class BookChapterPublication
+[error]   location: class BookChapterPublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookPublicationTest.java:19: error: cannot find symbol
+[error] 	private static BookPublication bookPublication;
+[error] 	               ^
+[error]   symbol:   class BookPublication
+[error]   location: class BookPublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookPublicationTest.java:20: error: cannot find symbol
+[error] 	private static BookPublication bookPublication1;
+[error] 	               ^
+[error]   symbol:   class BookPublication
+[error]   location: class BookPublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BugReportTest.java:19: error: cannot find symbol
+[error] 	private static BugReport bugReport;
+[error] 	               ^
+[error]   symbol:   class BugReport
+[error]   location: class BugReportTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BugReportTest.java:20: error: cannot find symbol
+[error] 	private static BugReport bugReport1;
+[error] 	               ^
+[error]   symbol:   class BugReport
+[error]   location: class BugReportTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ConferencePublicationTest.java:18: error: cannot find symbol
+[error] 	private static ConferencePublication conferencePublication;
+[error] 	               ^
+[error]   symbol:   class ConferencePublication
+[error]   location: class ConferencePublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ConferencePublicationTest.java:19: error: cannot find symbol
+[error] 	private static ConferencePublication conferencePublication1;
+[error] 	               ^
+[error]   symbol:   class ConferencePublication
+[error]   location: class ConferencePublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/DatasetLogTest.java:11: error: cannot find symbol
+[error] 	private static ServiceExecutionLog serviceExecutionLog;
+[error] 	               ^
+[error]   symbol:   class ServiceExecutionLog
+[error]   location: class DatasetLogTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/JournalPublicationTest.java:19: error: cannot find symbol
+[error] 	private static JournalPublication journalPublication;
+[error] 	               ^
+[error]   symbol:   class JournalPublication
+[error]   location: class JournalPublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/JournalPublicationTest.java:20: error: cannot find symbol
+[error] 	private static JournalPublication journalPublication1;
+[error] 	               ^
+[error]   symbol:   class JournalPublication
+[error]   location: class JournalPublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/PublicationTest.java:14: error: cannot find symbol
+[error] 	private static Publication publication;
+[error] 	               ^
+[error]   symbol:   class Publication
+[error]   location: class PublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/PublicationTest.java:15: error: cannot find symbol
+[error] 	private static Publication publication1;
+[error] 	               ^
+[error]   symbol:   class Publication
+[error]   location: class PublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationItemTest.java:9: error: cannot find symbol
+[error] 	private static ServiceConfiguration serviceConfiguration;
+[error] 	               ^
+[error]   symbol:   class ServiceConfiguration
+[error]   location: class ServiceConfigurationItemTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationItemTest.java:13: error: cannot find symbol
+[error] 	private static ServiceConfigurationItem serviceConfigurationItem;
+[error] 	               ^
+[error]   symbol:   class ServiceConfigurationItem
+[error]   location: class ServiceConfigurationItemTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationItemTest.java:14: error: cannot find symbol
+[error] 	private static ServiceConfigurationItem serviceConfigurationItem1;
+[error] 	               ^
+[error]   symbol:   class ServiceConfigurationItem
+[error]   location: class ServiceConfigurationItemTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationTest.java:15: error: cannot find symbol
+[error] 	private static ServiceConfiguration serviceConfiguration;
+[error] 	               ^
+[error]   symbol:   class ServiceConfiguration
+[error]   location: class ServiceConfigurationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationTest.java:16: error: cannot find symbol
+[error] 	private static ServiceConfiguration serviceConfiguration1;
+[error] 	               ^
+[error]   symbol:   class ServiceConfiguration
+[error]   location: class ServiceConfigurationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceExecutionLogTest.java:14: error: cannot find symbol
+[error] 	private static ServiceConfiguration serviceConfiguration;
+[error] 	               ^
+[error]   symbol:   class ServiceConfiguration
+[error]   location: class ServiceExecutionLogTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceExecutionLogTest.java:23: error: cannot find symbol
+[error] 	private static ServiceExecutionLog serviceExecutionLog;
+[error] 	               ^
+[error]   symbol:   class ServiceExecutionLog
+[error]   location: class ServiceExecutionLogTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceExecutionLogTest.java:24: error: cannot find symbol
+[error] 	private static ServiceExecutionLog serviceExecutionLog1;
+[error] 	               ^
+[error]   symbol:   class ServiceExecutionLog
+[error]   location: class ServiceExecutionLogTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookChapterPublicationTest.java:23: error: cannot find symbol
+[error] 		bookChapterPublication = new BookChapterPublication();
+[error] 		                             ^
+[error]   symbol:   class BookChapterPublication
+[error]   location: class BookChapterPublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookChapterPublicationTest.java:25: error: cannot find symbol
+[error] 		bookChapterPublication1 = new BookChapterPublication(TEST_PAPER_TITLE, TEST_AUTHOR, TEST_PUBLICATION_CHANNEL, TEST_YEAR,
+[error] 		                              ^
+[error]   symbol:   class BookChapterPublication
+[error]   location: class BookChapterPublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookPublicationTest.java:24: error: cannot find symbol
+[error] 		bookPublication = new BookPublication();
+[error] 		                      ^
+[error]   symbol:   class BookPublication
+[error]   location: class BookPublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BookPublicationTest.java:25: error: cannot find symbol
+[error] 		bookPublication1 = new BookPublication(TEST_PAPER_TITLE, TEST_AUTHOR, TEST_PUBLICATION_CHANNEL, TEST_YEAR, 
+[error] 		                       ^
+[error]   symbol:   class BookPublication
+[error]   location: class BookPublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BugReportTest.java:24: error: cannot find symbol
+[error] 		bugReport = new BugReport();
+[error] 		                ^
+[error]   symbol:   class BugReport
+[error]   location: class BugReportTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/BugReportTest.java:27: error: cannot find symbol
+[error] 		bugReport1 = new BugReport(TEST_TITLE, TEST_EMAIL, TEST_NAME, TEST_ORGANIZATION, TEST_DESCRIPTION, TEST_SOLVED, TEST_CREATION_DATE, TEST_UPDATE_DATE);
+[error] 		                 ^
+[error]   symbol:   class BugReport
+[error]   location: class BugReportTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ConferencePublicationTest.java:23: error: cannot find symbol
+[error] 		conferencePublication = new ConferencePublication();
+[error] 		                            ^
+[error]   symbol:   class ConferencePublication
+[error]   location: class ConferencePublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ConferencePublicationTest.java:25: error: cannot find symbol
+[error] 		conferencePublication1 = new ConferencePublication(TEST_PAPER_TITLE, TEST_AUTHOR, TEST_PUBLICATION_CHANNEL, TEST_YEAR,
+[error] 		                             ^
+[error]   symbol:   class ConferencePublication
+[error]   location: class ConferencePublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/DatasetLogTest.java:23: error: cannot find symbol
+[error] 		serviceExecutionLog = new ServiceExecutionLog();
+[error] 		                          ^
+[error]   symbol:   class ServiceExecutionLog
+[error]   location: class DatasetLogTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/DatasetLogTest.java:35: error: cannot find symbol
+[error] 		assertEquals(serviceExecutionLog, datasetLog.getServiceExecutionLog());
+[error] 		                                            ^
+[error]   symbol:   method getServiceExecutionLog()
+[error]   location: variable datasetLog of type DatasetLog
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/JournalPublicationTest.java:24: error: cannot find symbol
+[error] 		journalPublication = new JournalPublication();
+[error] 		                         ^
+[error]   symbol:   class JournalPublication
+[error]   location: class JournalPublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/JournalPublicationTest.java:25: error: cannot find symbol
+[error] 		journalPublication1 = new JournalPublication(TEST_PAPER_TITLE, TEST_AUTHOR, TEST_PUBLICATION_CHANNEL, TEST_YEAR,
+[error] 		                          ^
+[error]   symbol:   class JournalPublication
+[error]   location: class JournalPublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/PublicationTest.java:19: error: cannot find symbol
+[error] 		publication = new Publication();
+[error] 		                  ^
+[error]   symbol:   class Publication
+[error]   location: class PublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/PublicationTest.java:21: error: cannot find symbol
+[error] 		publication1 = new Publication(TEST_PAPER_TITLE, TEST_AUTHOR, TEST_PUBLICATION_CHANNEL, TEST_YEAR);
+[error] 		                   ^
+[error]   symbol:   class Publication
+[error]   location: class PublicationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationItemTest.java:18: error: cannot find symbol
+[error] 		serviceConfigurationItem = new ServiceConfigurationItem();
+[error] 		                               ^
+[error]   symbol:   class ServiceConfigurationItem
+[error]   location: class ServiceConfigurationItemTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationItemTest.java:19: error: cannot find symbol
+[error] 		serviceConfiguration = new ServiceConfiguration();
+[error] 		                           ^
+[error]   symbol:   class ServiceConfiguration
+[error]   location: class ServiceConfigurationItemTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationItemTest.java:21: error: cannot find symbol
+[error] 		serviceConfigurationItem1 = new ServiceConfigurationItem(serviceConfiguration, parameter, TEST_VALUE);
+[error] 		                                ^
+[error]   symbol:   class ServiceConfigurationItem
+[error]   location: class ServiceConfigurationItemTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationTest.java:22: error: cannot find symbol
+[error] 		serviceConfiguration = new ServiceConfiguration();
+[error] 		                           ^
+[error]   symbol:   class ServiceConfiguration
+[error]   location: class ServiceConfigurationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationTest.java:23: error: cannot find symbol
+[error] 		serviceConfiguration1 = new ServiceConfiguration(climateService, user, TEST_RUN_TIME);
+[error] 		                            ^
+[error]   symbol:   class ServiceConfiguration
+[error]   location: class ServiceConfigurationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationTest.java:52: error: cannot find symbol
+[error] 		ServiceConfiguration serviceConfiguration1 = new ServiceConfiguration();
+[error] 		^
+[error]   symbol:   class ServiceConfiguration
+[error]   location: class ServiceConfigurationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceConfigurationTest.java:52: error: cannot find symbol
+[error] 		ServiceConfiguration serviceConfiguration1 = new ServiceConfiguration();
+[error] 		                                                 ^
+[error]   symbol:   class ServiceConfiguration
+[error]   location: class ServiceConfigurationTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceExecutionLogTest.java:28: error: cannot find symbol
+[error] 		serviceExecutionLog = new ServiceExecutionLog();
+[error] 		                          ^
+[error]   symbol:   class ServiceExecutionLog
+[error]   location: class ServiceExecutionLogTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceExecutionLogTest.java:30: error: cannot find symbol
+[error] 		serviceConfiguration = new ServiceConfiguration();
+[error] 		                           ^
+[error]   symbol:   class ServiceConfiguration
+[error]   location: class ServiceExecutionLogTest
+[error] /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/test/ServiceExecutionLogTest.java:36: error: cannot find symbol
+[error] 		serviceExecutionLog1 = new ServiceExecutionLog(climateService, user, serviceConfiguration, TEST_PURPOSE,
+[error] 		                           ^
+[error]   symbol:   class ServiceExecutionLog
+[error]   location: class ServiceExecutionLogTest
+[error] 45 errors
+[debug] javac returned exit code: 1
+[error] (test:compile) javac returned nonzero exit code
