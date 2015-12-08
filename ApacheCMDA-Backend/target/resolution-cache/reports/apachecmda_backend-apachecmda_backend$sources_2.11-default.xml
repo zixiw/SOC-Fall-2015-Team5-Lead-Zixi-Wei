@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="default"
 		confs="default"
-		date="20151201080510"/>
+		date="20151207224348"/>
 	<dependencies>
 		<module organisation="de.johoop" name="jacoco4sbt">
 			<revision name="2.1.6" status="release" pubdate="20140713101027" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="175">

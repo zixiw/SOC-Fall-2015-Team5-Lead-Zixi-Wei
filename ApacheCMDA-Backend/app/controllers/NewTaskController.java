@@ -89,6 +89,7 @@ public class NewTaskController extends Controller {
         try {
             newTaskRepository.save(task);
             System.out.println("Add task to Workflow success");
+            workflow = null;
             workflow = newWorkflowRepository.findOne(workflowId);
             return created(workflow.toJson().toString());
         } catch (PersistenceException pe) {

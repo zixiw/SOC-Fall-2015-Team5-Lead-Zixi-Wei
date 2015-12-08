@@ -4,7 +4,7 @@
 		module="apachecmda_backend$sbt_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20151201080509"
+		publication="20151207224343"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

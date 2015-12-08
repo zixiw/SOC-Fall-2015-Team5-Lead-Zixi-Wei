@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, echo-trace-compile, echo-trace-test, echo-weave, echo-sigar, jacoco"
-		date="20151201080512"/>
+		date="20151207224351"/>
 	<dependencies>
 		<module organisation="org.hibernate" name="hibernate-c3p0">
 			<revision name="4.3.7.Final" status="release" pubdate="20141030090711" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="77">
@@ -656,11 +656,11 @@
 				<metadata-artifact status="no" details="" size="2544" time="0" location="/Users/zixiwei/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/ivy-8.0.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.5/tomcat-servlet-api-8.0.5.pom"/>
 				<caller organisation="apachecmda_backend" name="apachecmda_backend$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="8.0.5" rev-constraint-default="8.0.5" rev-constraint-dynamic="8.0.5" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="tomcat-servlet-api" type="jar" ext="jar" status="no" details="" size="243533" time="0" location="/Users/zixiwei/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.5.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.5/tomcat-servlet-api-8.0.5.jar"/>
-					</artifact>
 					<artifact name="tomcat-servlet-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="303695" time="0" location="/Users/zixiwei/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/srcs/tomcat-servlet-api-8.0.5-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.5/tomcat-servlet-api-8.0.5-sources.jar"/>
+					</artifact>
+					<artifact name="tomcat-servlet-api" type="jar" ext="jar" status="no" details="" size="243533" time="0" location="/Users/zixiwei/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.5/tomcat-servlet-api-8.0.5.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1235,11 +1235,11 @@
 				<metadata-artifact status="no" details="" size="2531" time="0" location="/Users/zixiwei/.ivy2/cache/org.scala-stm/scala-stm_2.11/ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.pom"/>
 				<caller organisation="apachecmda_backend" name="apachecmda_backend$sources_javadoc_2.11" conf="compile-internal, compile, provided, optional" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="/Users/zixiwei/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
-					</artifact>
 					<artifact name="scala-stm_2.11" type="jar" ext="jar" status="no" details="" size="630306" time="0" location="/Users/zixiwei/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="/Users/zixiwei/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
 					</artifact>
 					<artifact name="scala-stm_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="929219" time="0" location="/Users/zixiwei/.ivy2/cache/org.scala-stm/scala-stm_2.11/docs/scala-stm_2.11-0.7-javadoc.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-javadoc.jar"/>

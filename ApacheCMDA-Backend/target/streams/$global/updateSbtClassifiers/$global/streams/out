@@ -4746,9 +4746,9 @@
 [debug] 	[NOT REQUIRED] asm#asm;3.1!asm.jar
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.12!jcommon.jar
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
-[debug] :: resolution report :: resolve 1192ms :: artifacts dl 34ms
+[debug] :: resolution report :: resolve 4397ms :: artifacts dl 62ms
 [debug] 	report for apachecmda_backend#apachecmda_backend$sbt_2.11;1.0-SNAPSHOT default produced in /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend$sbt_2.11-default.xml
-[debug] 	resolve done (1192ms resolve - 34ms download)
+[debug] 	resolve done (4397ms resolve - 62ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: apachecmda_backend#apachecmda_backend$sources_2.11;1.0-SNAPSHOT
 [debug] 	confs: [default]
@@ -6432,7 +6432,7 @@
 [debug] 	[NOT REQUIRED] org.jacoco#org.jacoco.core;0.7.1.201405082137!org.jacoco.core.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-debug-all;5.0.1!asm-debug-all.jar(src)
 [debug] 	[NOT REQUIRED] org.jacoco#org.jacoco.report;0.7.1.201405082137!org.jacoco.report.jar(src)
-[debug] :: resolution report :: resolve 596ms :: artifacts dl 1128ms
+[debug] :: resolution report :: resolve 1038ms :: artifacts dl 2537ms
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	::              FAILED DOWNLOADS            ::
 [warn] 	:: ^ see resolution messages for details  ^ ::
@@ -6440,4 +6440,4 @@
 [warn] 	:: xalan#serializer;2.7.1!serializer.jar(src)
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [debug] 	report for apachecmda_backend#apachecmda_backend$sources_2.11;1.0-SNAPSHOT default produced in /Users/zixiwei/SOC-Fall-2015-Team5-Lead-Zixi-Wei/ApacheCMDA-Backend/target/resolution-cache/reports/apachecmda_backend-apachecmda_backend$sources_2.11-default.xml
-[debug] 	resolve done (596ms resolve - 1128ms download)
+[debug] 	resolve done (1038ms resolve - 2537ms download)

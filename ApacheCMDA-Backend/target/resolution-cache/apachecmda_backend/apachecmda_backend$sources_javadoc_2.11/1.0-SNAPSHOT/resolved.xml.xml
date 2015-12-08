@@ -4,7 +4,7 @@
 		module="apachecmda_backend$sources_javadoc_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20151201080512"
+		publication="20151207224351"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
