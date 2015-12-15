@@ -14,7 +14,7 @@ import javax.persistence.PersistenceException;
 import java.util.Set;
 
 /**
- * Created by zixiwei on 12/1/15.
+ * Created by Zixi Wei, Mingyang Ling, Zheng Lei, Sen Yue on 12/1/15.
  */
 @Named
 @Singleton
