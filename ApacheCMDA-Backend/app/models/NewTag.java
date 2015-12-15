@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Created by zixiwei on 11/30/15.
+ * Created by Zixi Wei, Mingyang Ling, Zheng Lei, Sen Yue on 11/30/15.
  */
 @Entity
 public class NewTag {
