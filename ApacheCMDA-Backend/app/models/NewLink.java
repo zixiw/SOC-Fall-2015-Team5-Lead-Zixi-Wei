@@ -4,7 +4,7 @@ import com.google.gson.JsonObject;
 import javax.persistence.*;
 
 /**
- * Created by zixiwei on 11/30/15.
+ * Created by Zixi Wei, Mingyang Ling, Zheng Lei, Sen Yue on 11/30/15.
  */
 @Entity
 public class NewLink {
